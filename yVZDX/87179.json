@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计 mq 消息丢失完整防护
+简介：磁盘 inode 耗尽文件创建失败，排查磁盘 inode 占用，清理大量小文件，恢复文件创建能力。
+ | 原文链接：http://wap.dtdyem.asia/blog/7480719.sHtMl
+
+原标题：golang docker compose 本地开发最佳实践
+简介：golang json 解析未知动态 json 结构，解析到 map [string] any 处理未知 json，动态读取字段。
+ | 原文链接：http://wap.dtdyem.asia/blog/7489503.sHtMl
+
+原标题：golang redis 过期策略内存淘汰
+简介：express 请求参数校验处理，接入参数校验库，校验入参，拦截非法参数，提前拦截错误请求。
+ | 原文链接：http://wap.dtdyem.asia/blog/9694805.sHtMl
+
+原标题：开发复盘：导出大文件避免内存溢出实现方案
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://wap.dtdyem.asia/blog/0267375.sHtMl
+
+原标题：Troubleshoot：跨域偶现失败难以复现问题
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：http://wap.dtdyem.asia/blog/0727809.sHtMl
+
+原标题：golang 系统设计单元测试编写原则最佳实践
+简介：缓存过期策略优化防业务故障，合理设置缓存过期策略，规避集中过期，减少缓存失效带来业务抖动。
+ | 原文链接：http://wap.dtdyem.asia/blog/9605626.sHtMl
+
+原标题：接口请求重试容错机制实现
+简介：内网 DNS 不稳定随机报错排查，定位内网 DNS 抖动问题，配置备选 DNS，解决偶现域名解析失败。
+ | 原文链接：http://wap.dtdyem.asia/blog/6080485.sHtMl
+
+原标题：golang 数据库连接泄露排查
+简介：golang 自定义 http round tripper，封装 http 客户端拦截，实现请求日志、签名、重试统一处理逻辑。
+ | 原文链接：http://wap.dtdyem.asia/blog/1713015.sHtMl
+
+原标题：部署复盘：配置热更新不用重启服务方案
+简介：golang http3 quic 客户端服务端示例，go 实现 http3 quic 服务端客户端，体验 quic 协议低延迟特性。
+ | 原文链接：http://wap.dtdyem.asia/blog/7189176.sHtMl
+
+原标题：DevOps：容器健康探针livenessreadiness配置
+简介：golang 文件上传下载接口开发，Go 开发文件上传下载接口，校验文件，处理文件读写存储逻辑。
+ | 原文链接：http://wap.dtdyem.asia/blog/2918068.sHtMl
+
+原标题：CI 流水线超时时间延长配置
+简介：golang proto 可选字段处理方案，protobuf 可选字段正确判断，区分未赋值与零值，业务逻辑不出现偏差。
+ | 原文链接：http://wap.dtdyem.asia/blog/4115848.sHtMl
+
+原标题：接口请求重试容错机制实现
+简介：golang 分库分表 id 路由规则设计，分库分表 id 路由算法，id 映射库表，数据均匀打散避免热点分片。
+ | 原文链接：http://wap.dtdyem.asia/blog/6381713.sHtMl
+
+原标题：ServiceWorker 缓存页面更新清理
+简介：golang gin 框架接口开发实战，Gin 框架搭建 HTTP 服务，开发增删改查接口，快速完成后端接口开发。
+ | 原文链接：http://wap.dtdyem.asia/blog/1536758.sHtMl
+
+原标题：复盘总结：接口重构兼容旧版本改造复盘
+简介：程序信号中断退出处理逻辑，捕获系统中断信号，执行资源释放、关闭连接，实现程序优雅退出。
+ | 原文链接：http://wap.dtdyem.asia/blog/4869480.sHtMl
+
+原标题：nodejs 日志轮转生产环境配置
+简介：golang go 零停机升级实践要点，socket 继承，流量无损，旧连接处理完毕后旧进程退出。
+ | 原文链接：http://wap.dtdyem.asia/blog/4718258.sHtMl
+
+原标题：css 动画性能优化 GPU 加速
+简介：golang hertz 性能优化参数调优，hertz 连接池、缓冲区参数调优，最大化接口吞吐性能。
+ | 原文链接：http://wap.dtdyem.asia/blog/4151392.sHtMl
+
+原标题：golang 系统设计消息发送确认机制配置实操
+简介：golang 配置文件多格式兼容加载，同时支持 yaml toml json 多种格式配置文件，灵活适配不同部署环境。
+ | 原文链接：http://wap.dtdyem.asia/blog/4157350.sHtMl
+
+原标题：踩坑：批量MQ消费失败直接无限重试消息爆炸
+简介：golang delve 远程调试 go 线上程序，delve 远程调试，线上环境附加进程调试排查线上 bug。
+ | 原文链接：http://wap.dtdyem.asia/blog/1827908.sHtMl
+
+原标题：golang 系统设计架构图绘图工具选型对比
+简介：golang k8s 客户端 client‑go 简单示例，client‑go 操作 k8s 资源，增删改查 pod deployment 等资源对象。
+ | 原文链接：http://wap.dtdyem.asia/blog/4160485.sHtMl
+
+原标题：golang 系统设计网络 io 模型 epoll 原理讲解
+简介：golang context 取消传播机制，父 ctx 取消，所有派生子 context 全部被取消，理解上下文传播。
+ | 原文链接：http://wap.dtdyem.asia/blog/1928392.sHtMl
+
+原标题：golang kafka 同步异步消费对比
+简介：golang 集成测试测试数据库回滚，集成测试结束自动回滚数据库，不污染测试环境数据。
+ | 原文链接：http://wap.dtdyem.asia/blog/4967962.sHtMl
+
+原标题：golang redis lua 脚本原子操作
+简介：golang go race 竞态检测工具，‑race 检测数据竞争，编译运行检测并发读写数据竞争 bug。
+ | 原文链接：http://wap.dtdyem.asia/blog/6370304.sHtMl
+
+原标题：golang 系统设计性能瓶颈定位完整方法论
+简介：golang 协程数量监控统计方案，统计运行中 goroutine 数量，监控协程泄露，协程数量异常及时告警。
+ | 原文链接：http://wap.dtdyem.asia/blog/6372617.sHtMl
+
+原标题：CORS 跨域问题多种解决方案
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：http://wap.dtdyem.asia/blog/6483685.sHtMl
+
+原标题：开发环境变量配置全平台教程
+简介：golang 项目目录分层规范设计，Go 后端项目目录分层规范，按领域分层，提高项目可读性可维护性。
+ | 原文链接：http://wap.dtdyem.asia/blog/2968471.sHtMl
+
+原标题：从零编写简易 CLI 命令行工具
+简介：golang go 防止路径穿越攻击，文件操作校验路径，拒绝../ 路径穿越，禁止访问系统任意文件。
+ | 原文链接：http://wap.dtdyem.asia/blog/4189249.sHtMl
+
+原标题：golang 系统设计监控大盘故障快速定位思路
+简介：包管理器依赖缓存清理，清理本地依赖缓存，解决缓存旧包引发问题，拉取最新版本依赖包。
+ | 原文链接：http://wap.dtdyem.asia/blog/5960626.sHtMl
+
+原标题：实践：前后端时间格式统一规范落地实践
+简介：文件句柄耗尽资源泄露处理，定位文件句柄泄露，修复文件忘记关闭问题，解决句柄耗尽服务报错。
+ | 原文链接：http://wap.dtdyem.asia/blog/9502404.sHtMl
+
+原标题：ORM 隐式慢查询问题规避
+简介：golang http 代理客户端配置，Go HTTP Client 配置代理，通过代理服务器发起网络请求。
+ | 原文链接：http://wap.dtdyem.asia/blog/8491704.sHtMl
+
+原标题：Architecture：CI/CD流水线架构完整设计思考
+简介：golang os.Signal 信号监听完整示例，signal.Notify 监听信号，缓冲 channel 防止信号丢失。
+ | 原文链接：http://wap.dtdyem.asia/blog/0727069.sHtMl
+
+原标题：踩坑：消息队列消息堆积，消费者处理能力不足
+简介：数值 key 浮点匹配异常规避，避免浮点数作为 Redis 等存储的 key，防止精度问题引发 key 匹配失败。
+ | 原文链接：http://wap.dtdyem.asia/blog/6262585.sHtMl
+
+原标题：实战项目：搭建私有Docker镜像仓库本地实践
+简介：golang redis 事务 multi exec 使用，Redis 事务 multi exec 实现批量命令原子执行，理解 redis 事务隔离特性。
+ | 原文链接：http://wap.dtdyem.asia/blog/4879492.sHtMl
+
+原标题：新手教程：本地环境变量配置全流程
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：http://wap.dtdyem.asia/blog/5261714.sHtMl
+
+原标题：Hands‑on：简易频率统计组件Redis实现
+简介：golang hertz 反向代理与负载均衡，hertz 实现反向代理，内置负载均衡，快速搭建网关类服务。
+ | 原文链接：http://wap.dtdyem.asia/blog/2938362.sHtMl
+
+原标题：线上故障：Redis内存淘汰策略错误数据丢失
+简介：数据库连接池参数调优，调整连接池最大最小连接数，空闲超时，避免连接耗尽或者资源浪费。
+ | 原文链接：http://wap.dtdyem.asia/blog/9602513.sHtMl
+
+原标题：并发数据覆盖加锁安全处理
+简介：golang url 参数编码处理方案，Go URL 参数编码解码，处理特殊字符，避免 URL 参数错乱。
+ | 原文链接：http://wap.dtdyem.asia/blog/9535247.sHtMl
+
+原标题：golang es 查询语句 DSL 实操
+简介：golang 数据库分表策略按时间分片，按时间维度分表，历史数据拆分，单表数据量控制保证查询性能。
+ | 原文链接：http://wap.dtdyem.asia/blog/9632535.sHtMl
+
+原标题：实战项目：HTTPS本地自签名证书配置实践
+简介：异步编程 Promise 执行流程解析，拆解异步执行顺序，理解回调与 Promise 差异，理清异步场景下代码执行逻辑。
+ | 原文链接：http://wap.dtdyem.asia/blog/0738169.sHtMl
+
+原标题：golang 项目目录分层规范设计
+简介：golang mongodb go 驱动实操教程，mongo‑go‑driver 操作 mongodb，文档增删改查聚合查询。
+ | 原文链接：http://wap.dtdyem.asia/blog/8727039.sHtMl
+
+原标题：入门实践：Git分支创建切换合并完整演示
+简介：接口请求重试容错机制实现，封装请求重试逻辑，遇到临时网络故障自动重试，提升第三方调用稳定性。
+ | 原文链接：http://wap.dtdyem.asia/blog/9605147.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：安全笔记：文件下载接口路径校验安全
+简介：golang go mod graph 可视化依赖图，可视化 go 依赖关系，直观看到包之间依赖，定位冲突。
+ | 原文链接：http://wap.dtdyem.asia/blog/9224030.sHtMl
+
+原标题：WSL 搭建 Windows Linux 开发环境
+简介：golang go 排序 sort 包自定义排序，sort 包实现自定义排序逻辑，对切片按业务规则排序。
+ | 原文链接：http://wap.dtdyem.asia/blog/8505857.sHtMl
+
+原标题：Hands‑on：手写简易ORM框架理解底层原理
+简介：布隆过滤器数据高效去重实现，实现布隆过滤器组件，用于海量数据去重，节省大量内存空间。
+ | 原文链接：http://wap.dtdyem.asia/blog/6199584.sHtMl
+
+原标题：OOMKilled 容器被杀完整排查
+简介：git stash 代码暂存切换分支，使用 stash 暂存未提交代码，切换其他分支处理紧急任务，再恢复原有工作进度。
+ | 原文链接：http://wap.dtdyem.asia/blog/2938928.sHtMl
+
+原标题：依赖版本冲突兼容修复方案
+简介：无用对象回收抑制内存上涨，优化对象生命周期，及时释放不再使用对象，抑制内存持续不断增长。
+ | 原文链接：http://wap.dtdyem.asia/blog/6389594.sHtMl
+
+原标题：安全笔记：CORS跨域配置错误安全风险
+简介：端口占用释放资源重启服务，查找占用端口进程，结束占用进程，释放端口，让服务能够正常启动监听。
+ | 原文链接：http://wap.dtdyem.asia/blog/2948036.sHtMl
+
+原标题：接口压测定位系统性能瓶颈
+简介：RPC 接口字段增减兼容处理，RPC 接口新增删除字段做好向前兼容，老版本服务不会解析报错崩溃。
+ | 原文链接：http://wap.dtdyem.asia/blog/5251581.sHtMl
+
+原标题：开发记录：日志脱敏防止敏感信息输出实践
+简介：golang channel 通道并发处理，讲解 Channel 用法，协程之间通过通道传递数据，做并发同步控制。
+ | 原文链接：http://wap.dtdyem.asia/blog/5379695.sHtMl
+
+原标题：架构笔记：业务操作审计日志系统架构设计
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：http://wap.dtdyem.asia/blog/7483725.sHtMl
+
+原标题：项目实践：多租户数据隔离三种方案实操对比
+简介：golang redis 过期键监听回调，监听 key 过期事件，过期触发业务逻辑，实现过期自动处理业务场景。
+ | 原文链接：http://wap.dtdyem.asia/blog/3040414.sHtMl
+
+原标题：架构笔记：海量消息堆积架构处理能力设计
+简介：golang go 爬虫 robots 协议遵守，解析 robots.txt 规则，控制爬虫抓取范围，合规采集网页数据。
+ | 原文链接：http://wap.dtdyem.asia/blog/0274746.sHtMl
+
+原标题：react hooks 常见陷阱避坑指南
+简介：服务器 Swap 关闭提升响应速度，关闭服务器 Swap 交换分区，避免内存交换磁盘拖慢程序响应性能。
+ | 原文链接：http://wap.dtdyem.asia/blog/4161403.sHtMl
+
+原标题：golang 系统设计缓存 key 命名规范最佳实践
+简介：golang proto 默认值坑点梳理，梳理 Protobuf 默认值坑，零值字段区分未赋值，避免业务逻辑错误。
+ | 原文链接：http://wap.dtdyem.asia/blog/3040281.sHtMl
+
+原标题：MySQL 慢查询索引优化实战
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：http://wap.dtdyem.asia/blog/6280281.sHtMl
+
+原标题：golang 系统设计开源 issue 处理回复沟通技巧
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：http://wap.dtdyem.asia/blog/9612818.sHtMl
+
+原标题：golang 系统设计 mq 消息丢失完整防护
+简介：golang sync.WaitGroup 协程等待控制，WaitGroup 控制一组协程等待全部执行完成，完成批量协程任务调度。
+ | 原文链接：http://wap.dtdyem.asia/blog/7449571.sHtMl
+
+原标题：实战项目：Nginx限速、限流、防爬虫配置实践
+简介：golang go‑zero 监控指标埋点，go‑zero 内置 metrics 监控，上报业务指标对接监控平台。
+ | 原文链接：http://wap.dtdyem.asia/blog/0702830.sHtMl
+
+原标题：接口幂等性防重复请求实现
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：http://wap.dtdyem.asia/blog/0493785.sHtMl
+
+原标题：设计思考：缓存分层架构设计与失效处理策略
+简介：浮点计算精度错误处理方案，讲解浮点数计算精度丢失问题，使用合适数据类型，规避金额计算出错。
+ | 原文链接：http://wap.dtdyem.asia/blog/9344645.sHtMl
+
+原标题：Hands‑on：简易压缩中间件gzip实现实践
+简介：游标分页大数据查询性能提升，使用游标分页替代偏移分页，解决大数据 offset 分页性能越来越差问题。
+ | 原文链接：http://wap.dtdyem.asia/blog/6013337.sHtMl
+
+原标题：架构笔记：海量消息堆积架构处理能力设计
+简介：golang 分页查询封装通用工具，封装 Go 通用分页工具，统一处理分页参数，简化业务分页接口开发。
+ | 原文链接：http://wap.dtdyem.asia/blog/7123421.sHtMl
+
+原标题：包管理器依赖冲突解决方案
+简介：golang go 锁竞争导致 CPU 飙升，识别锁竞争场景，减少锁粒度，优化并发逻辑降低 CPU 开销。
+ | 原文链接：http://wap.dtdyem.asia/blog/6522025.sHtMl
+
+原标题：线上故障：Redis内存淘汰策略错误数据丢失
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://wap.dtdyem.asia/blog/0823125.sHtMl
+
+原标题：Dockerfile 编写容器打包实战
+简介：golang redis bloom 布隆过滤器 go‑redis，go‑redis 布隆过滤器，海量数据判断是否存在，减少数据库查询。
+ | 原文链接：http://wap.dtdyem.asia/blog/3629205.sHtMl
+
+原标题：golang 系统设计 ide 配置 go 开发效率提升技巧
+简介：hosts 配置本地回环访问修复，修改 hosts 配置，修复 127.0.0.1 解析异常，本地服务访问失败问题。
+ | 原文链接：http://wap.dtdyem.asia/blog/8798799.sHtMl
+
+原标题：golang 系统设计 vscode go 插件调试配置实操
+简介：Dockerfile 编写容器打包实战，讲解 Dockerfile 指令含义，编写镜像构建脚本，将本地项目打包成可分发容器镜像。
+ | 原文链接：http://wap.dtdyem.asia/blog/9941551.sHtMl
+
+原标题：CI/CD 流水线自动构建部署落地
+简介：系统文件描述符上限调大，调高操作系统文件描述符上限，解决高并发场景打开文件报错。
+ | 原文链接：http://wap.dtdyem.asia/blog/9807869.sHtMl
+
+原标题：安全实践：最小权限原则数据库账号管控
+简介：跨库查询性能优化处理，减少跨库关联查询，做数据冗余或者中间表，规避跨库查询性能低下。
+ | 原文链接：http://wap.dtdyem.asia/blog/1054636.sHtMl
+
+原标题：golang 系统设计 tcc 事务简单原理业务示例
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：http://wap.dtdyem.asia/blog/3702615.sHtMl
+
+原标题：golang gin 静态资源访问配置
+简介：golang channel 关闭规则与坑点，关闭已经关闭 channel 会 panic，判断 channel 是否关闭正确写法。
+ | 原文链接：http://wap.dtdyem.asia/blog/3151585.sHtMl
+
+原标题：golang 系统设计技术方案文档模板参考
+简介：浏览器内存泄漏排查前端页面，梳理前端页面内存泄漏场景，讲解排查手段，修复页面内存持续上涨。
+ | 原文链接：http://wap.dtdyem.asia/blog/4150381.sHtMl
+
+原标题：golang mysql 长连接短连接对比
+简介：golang csv 读写批量数据处理，Go 读写 CSV 文件，批量导入导出业务数据，处理 CSV 格式解析。
+ | 原文链接：http://wap.dtdyem.asia/blog/0716920.sHtMl
+
+原标题：大事务拆分防止连接池耗尽
+简介：golang tcp_NODELAY 关闭延迟发送，设置 tcp_NODELAY，关闭 Nagle 算法，降低小包请求延迟。
+ | 原文链接：http://wap.dtdyem.asia/blog/4151593.sHtMl
+
+原标题：主干开发团队代码合并策略
+简介：golang 压缩 zip 文件生成解压，golang 实现 zip 压缩打包，解压 zip 归档文件，处理批量文件归档。
+ | 原文链接：http://wap.dtdyem.asia/blog/1827031.sHtMl
+
+原标题：golang 系统设计 canary 金丝雀部署实操
+简介：axios 二次封装请求拦截处理，对 axios 做二次封装，统一请求拦截响应拦截，处理错误、token 自动刷新。
+ | 原文链接：http://wap.dtdyem.asia/blog/0727861.sHtMl
+
+原标题：安全复盘：业务登录暴力破解防护完整方案
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://wap.dtdyem.asia/blog/2934027.sHtMl
+
+原标题：方案对比：同步调用vs异步消息业务选型
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：http://wap.dtdyem.asia/blog/8414548.sHtMl
+
+原标题：开源实践：维护开源项目Issue管理经验总结
+简介：golang 性能压测 wr 工具实操指南，wr 压测工具对 Go 接口压测，观察 QPS 延迟，定位接口性能瓶颈。
+ | 原文链接：http://wap.dtdyem.asia/blog/0718071.sHtMl
+
+原标题：HelloCI：理解持续集成基础工作流程
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：http://wap.dtdyem.asia/blog/3038461.sHtMl
+
+原标题：golang 系统设计多级缓存更新策略
+简介：golang redis pipeline 批量操作，使用 Redis Pipeline 批量执行多条命令，减少网络往返，提升批量操作性能。
+ | 原文链接：http://wap.dtdyem.asia/blog/4261393.sHtMl
+
+三、实战开发｜Practice
+原标题：golang mysql 行锁表锁场景区分
+简介：服务启动依赖顺序配置正确，配置服务启动依赖关系，保证依赖服务就绪之后再启动当前业务服务。
+ | 原文链接：http://wap.dtdyem.asia/blog/1423708.sHtMl
+
+原标题：golang prometheus 指标暴露实现
+简介：golang 正则表达式 Go 实操案例，正则匹配提取替换，处理手机号邮箱校验，规避正则回溯 CPU 暴涨。
+ | 原文链接：http://wap.dtdyem.asia/blog/5192704.sHtMl
+
+原标题：golang 系统设计短信发送限流降级
+简介：golang sync.Mutex 互斥锁正确模式，互斥锁 defer Unlock，锁粒度控制，避免锁范围过大。
+ | 原文链接：http://wap.dtdyem.asia/blog/7485736.sHtMl
+
+原标题：golang redis 布隆过滤器安装使用
+简介：golang 信号触发配置重载实践，收到 SIGUSR1 信号重新加载配置，线上无需重启刷新配置。
+ | 原文链接：http://wap.dtdyem.asia/blog/9582793.sHtMl
+
+原标题：golang k8s 基础概念 pod deployment
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：http://wap.dtdyem.asia/blog/9607837.sHtMl
+
+原标题：echarts 大数据渲染性能调优
+简介：语义化版本依赖管理防错乱，项目依赖遵循语义版本约束，规避依赖自动升级引入不兼容变更。
+ | 原文链接：http://wap.dtdyem.asia/blog/5969092.sHtMl
+
+原标题：方案设计：高可用Redis集群架构选型对比
+简介：golang proto 可选字段处理方案，protobuf 可选字段正确判断，区分未赋值与零值，业务逻辑不出现偏差。
+ | 原文链接：http://wap.dtdyem.asia/blog/5162704.sHtMl
+
+原标题：语义化版本依赖管理防错乱
+简介：布隆过滤器数据高效去重实现，实现布隆过滤器组件，用于海量数据去重，节省大量内存空间。
+ | 原文链接：http://wap.dtdyem.asia/blog/7425585.sHtMl
+
+原标题：Troubleshooting：WSL文件权限问题大量踩坑
+简介：golang 分布式事务 seata go 客户端，seata‑go 实现分布式事务，保证跨库业务数据最终一致性。
+ | 原文链接：http://wap.dtdyem.asia/blog/9272707.sHtMl
+
+原标题：golang etcd 租约 lease 过期机制
+简介：golang strings 常用函数业务实战，字符串分割替换包含判断前缀后缀，掌握 strings 包高频函数。
+ | 原文链接：http://wap.dtdyem.asia/blog/2948392.sHtMl
+
+原标题：项目实践：幂等表实现接口幂等业务实践
+简介：JSON XML 数据解析处理示例，演示两种格式数据解析与序列化，增加异常捕获，处理格式错乱导致解析失败。
+ | 原文链接：http://wap.dtdyem.asia/blog/6374686.sHtMl
+
+原标题：Practice：手写简易限流组件，计数器、令牌桶实现
+简介：WSL 文件权限访问异常修复，处理 WSL 环境文件权限错乱，调整权限配置，实现文件正常读写访问。
+ | 原文链接：http://wap.dtdyem.asia/blog/1036148.sHtMl
+
+原标题：实践：消息队列死信处理业务落地实践
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：http://wap.dtdyem.asia/blog/1827364.sHtMl
+
+原标题：架构笔记：海量日志处理架构选型与实践
+简介：代码格式化工具团队统一风格，接入格式化工具，统一全团队代码书写风格，减少格式类 git 冲突。
+ | 原文链接：http://wap.dtdyem.asia/blog/8268157.sHtMl
+
+原标题：golang docker 容器资源限制设置
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：http://wap.dtdyem.asia/blog/0368569.sHtMl
+
+原标题：Troubleshoot：CPU调度频繁上下文切换性能下降
+简介：golang go‑zero 缓存自动击穿防护，go‑zero 缓存组件自带缓存击穿防护，减少缓存层故障。
+ | 原文链接：http://wap.dtdyem.asia/blog/1609059.sHtMl
+
+原标题：开发记录：JWT过期刷新滑动过期实现实践
+简介：数据库分表存储大表优化方案，对超大数据表做分表，拆分数据，降低单表数据量提升查询性能。
+ | 原文链接：http://wap.dtdyem.asia/blog/5048927.sHtMl
+
+原标题：新手向：开源项目依赖安装失败排查
+简介：express 请求参数校验处理，接入参数校验库，校验入参，拦截非法参数，提前拦截错误请求。
+ | 原文链接：http://wap.dtdyem.asia/blog/4168394.sHtMl
+
+原标题：Security：接口鉴权越权漏洞检测与修复
+简介：golang feishu 飞书机器人消息发送，调用飞书 webhook 机器人，发送文本卡片消息，实现业务告警通知。
+ | 原文链接：http://wap.dtdyem.asia/blog/2939060.sHtMl
+
+原标题：golang 系统设计集成测试环境准备清理实操
+简介：golang gorm 软删除实现逻辑，Gorm 开启软删除，删除数据仅标记，数据保留可恢复，满足业务数据留存。
+ | 原文链接：http://wap.dtdyem.asia/blog/5292816.sHtMl
+
+原标题：排错：多实例部署session共享失效登录失效
+简介：golang 大文件 HTTP 流式上传接收，服务端流式接收上传文件，不全部加载内存，防止大文件 OOM 崩溃。
+ | 原文链接：http://wap.dtdyem.asia/blog/3051682.sHtMl
+
+原标题：golang 系统设计链路数据存储选型对比讲解
+简介：golang wasm 浏览器 js 交互，go wasm 与 js 互相调用，浏览器端 go 程序操作 dom 调用 js 函数。
+ | 原文链接：http://wap.dtdyem.asia/blog/2828072.sHtMl
+
+原标题：golang docker 部署 redis 配置要点
+简介：golang go 程序容器资源 requests limits，设置容器 cpu 内存配额，防止实例抢占集群资源，稳定调度。
+ | 原文链接：http://wap.dtdyem.asia/blog/2939020.sHtMl
+
+原标题：内网测试服务搭建团队调试
+简介：golang 日志输出 stdout 标准输出规范，容器环境日志输出到 stdout，由容器平台统一采集日志文件。
+ | 原文链接：http://wap.dtdyem.asia/blog/5257249.sHtMl
+
+原标题：AI‑Dev：利用AI快速阅读陌生开源项目源码
+简介：golang kafka 同步异步消费对比，对比 Kafka 同步消费异步消费，分析优缺点，业务选型参考。
+ | 原文链接：http://wap.dtdyem.asia/blog/0714926.sHtMl
+
+原标题：调优方案：服务实例扩容，水平扩展性能
+简介：golang ctx 传递规则不要存结构体，context 作为函数参数传递，禁止放入结构体字段存储。
+ | 原文链接：http://wap.dtdyem.asia/blog/5161392.sHtMl
+
+原标题：golang 优雅处理 http 超时设置
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：http://wap.dtdyem.asia/blog/9603704.sHtMl
+
+原标题：Git 分支切换合并删除完整操作
+简介：golang 服务限流熔断降级监控完整实践，微服务防护体系，限流熔断降级指标监控告警整套落地。
+ | 原文链接：http://wap.dtdyem.asia/blog/1825038.sHtMl
+
+原标题：golang 系统设计 api 文档 swagger redoc 落地
+简介：golang 错误栈捕获打印方案，捕获错误完整调用堆栈，线上日志输出堆栈，快速定位错误发生代码位置。
+ | 原文链接：http://wap.dtdyem.asia/blog/3939174.sHtMl
+
+原标题：golang dockerfile 多阶段构建详解
+简介：golang redis lua 脚本原子操作，使用 Lua 脚本实现原子逻辑，减少网络往返，保障多命令原子执行。
+ | 原文链接：http://wap.dtdyem.asia/blog/6373637.sHtMl
+
+原标题：WebSocket 聊天室实时通讯开发
+简介：golang 容器 OOM 被杀死排查区分，区分业务内存泄漏、容器限制过小，定位容器 OOMKilled 原因。
+ | 原文链接：http://wap.dtdyem.asia/blog/4153515.sHtMl
+
+原标题：开发复盘：批量任务进度持久化实现方案
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：http://wap.dtdyem.asia/blog/6250283.sHtMl
+
+原标题：入门实践：使用Git完成第一次代码提交与推送
+简介：golang 协程泄露问题排查方法，识别 Go 协程泄露现象，分析泄露场景，给出排查定位协程泄露手段。
+ | 原文链接：http://wap.dtdyem.asia/blog/2058259.sHtMl
+
+原标题：架构笔记：冷热数据分离架构设计与迁移
+简介：配置外部化线上部署防错误，把配置从代码剥离，外部传入配置，修改配置不需要重新打包构建。
+ | 原文链接：http://wap.dtdyem.asia/blog/4180693.sHtMl
+
+原标题：安全复盘：Redis命令注入风险防护手段
+简介：golang bufio.Scanner 缓冲区调大，Scanner 默认缓冲区大小不够，读取超长行需要扩大缓冲区。
+ | 原文链接：http://wap.dtdyem.asia/blog/3057060.sHtMl
+
+原标题：Git 误删提交代码恢复找回
+简介：磁盘 inode 耗尽文件创建失败，排查磁盘 inode 占用，清理大量小文件，恢复文件创建能力。
+ | 原文链接：http://wap.dtdyem.asia/blog/8417060.sHtMl
+
+原标题：golang 系统设计指标埋点代码低侵入实现
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：http://wap.dtdyem.asia/blog/9606746.sHtMl
+
+原标题：开发复盘：大数据量分页避免offset性能问题
+简介：golang 数据库连接泄露排查，定位 Go 数据库连接泄露，连接没有归还池，导致连接耗尽报错。
+ | 原文链接：http://wap.dtdyem.asia/blog/9606694.sHtMl
+
+原标题：golang mongodb 分页性能优化技巧
+简介：大事务拆分防止连接池耗尽，将执行时间很长的大事务拆分为小事务，减少事务占用连接时长。
+ | 原文链接：http://wap.dtdyem.asia/blog/6370717.sHtMl
+
+原标题：Git 误提交撤销回退实操教程
+简介：前端下载导出文件功能实现，前端实现文件流下载导出，处理异常，适配浏览器不同下载行为。
+ | 原文链接：http://wap.dtdyem.asia/blog/2158393.sHtMl
+
+四、架构设计｜Architecture
+原标题：golang mysql 防止 sql 注入实践
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：http://wap.dtdyem.asia/blog/1525037.sHtMl
+
+原标题：从零搭建简单CLI命令行工具
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：http://wap.dtdyem.asia/blog/2468347.sHtMl
+
+原标题：调优方案：Nginx性能参数调优高并发配置
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：http://wap.dtdyem.asia/blog/6491791.sHtMl
+
+原标题：golang k8s service 服务暴露几种类型
+简介：模拟登录鉴权权限判断示例，实现简易登录流程，会话状态维护，完成接口权限校验，理解身份鉴权基础逻辑。
+ | 原文链接：http://wap.dtdyem.asia/blog/4858363.sHtMl
+
+原标题：golang redis 缓存穿透解决方案
+简介：golang nil channel 阻塞特性，nil channel 读写永久阻塞，理解 nil channel 行为做逻辑控制。
+ | 原文链接：http://wap.dtdyem.asia/blog/0313892.sHtMl
+
+原标题：golang 系统设计 id 生成器选型对比
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：http://wap.dtdyem.asia/blog/0415926.sHtMl
+
+原标题：零基础理解版本控制核心概念与工作流
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：http://wap.dtdyem.asia/blog/1859382.sHtMl
+
+原标题：golang 系统设计分表跨表 join 业务处理方案
+简介：golang prometheus http 接口暴露指标，暴露 prometheus metrics 接口，输出业务运行指标，接入监控告警系统。
+ | 原文链接：http://wap.dtdyem.asia/blog/5278474.sHtMl
+
+原标题：避坑：CookieSecure属性造成测试环境登录失败
+简介：golang go 依赖漏洞检测 govulncheck，govulncheck 扫描依赖安全漏洞，发现项目供应链风险。
+ | 原文链接：http://wap.dtdyem.asia/blog/2163461.sHtMl
+
+原标题：golang 系统设计网关缓存静态资源实现思路
+简介：golang 程序崩溃 core dump 生成调试，开启 core dump，程序崩溃生成转储文件，事后分析崩溃原因。
+ | 原文链接：http://wap.dtdyem.asia/blog/5263515.sHtMl
+
+原标题：Troubleshoot：RPC序列化对象字段增减兼容踩坑
+简介：golang go 调度器 GMP 模型通俗讲解，拆解 GMP 模型，理解 goroutine M P 调度原理，看懂调度状态。
+ | 原文链接：http://wap.dtdyem.asia/blog/5259137.sHtMl
+
+原标题：K8s 镜像拉取网络故障修复
+简介：golang redis 事务 multi exec 使用，Redis 事务 multi exec 实现批量命令原子执行，理解 redis 事务隔离特性。
+ | 原文链接：http://wap.dtdyem.asia/blog/7492383.sHtMl
+
+原标题：OpenSource：开源项目许可证License选型指南
+简介：Git 标签版本标记发布管理，使用 Git 标签标记项目版本，打标签推送远程，用于版本发布、版本回溯。
+ | 原文链接：http://wap.dtdyem.asia/blog/3059363.sHtMl
+
+原标题：超大数据集分页性能优化方案
+简介：golang go 时间 time.Timer time.Ticker，定时器与周期定时器，Stop Reset 正确使用，防止资源泄漏。
+ | 原文链接：http://wap.dtdyem.asia/blog/5383606.sHtMl
+
+原标题：﻿【GettingStarted】从零搭建本地开发环境完整指南
+简介：前端水印防信息泄露实现，实现网页水印功能，页面叠加用户信息水印，防止页面截图信息外泄。
+ | 原文链接：http://wap.dtdyem.asia/blog/6070484.sHtMl
+
+原标题：上传接口跨域配置特殊适配
+简介：golang context 取消传播机制，父 ctx 取消，所有派生子 context 全部被取消，理解上下文传播。
+ | 原文链接：http://wap.dtdyem.asia/blog/6369069.sHtMl
+
+原标题：移动端适配 rem vw 方案对比
+简介：golang go 多版本管理 gvm 使用，gvm 管理多个 go sdk 版本，快速切换不同 go 版本做项目开发。
+ | 原文链接：http://wap.dtdyem.asia/blog/7314915.sHtMl
+
+原标题：正则表达式优化 CPU 占满问题
+简介：golang time 定时器重置 Reset 正确用法，Timer Reset 调用前提，避免 Reset 带来逻辑错误。
+ | 原文链接：http://wap.dtdyem.asia/blog/8495606.sHtMl
+
+?
