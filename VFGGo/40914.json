@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：踩坑记录：分页逻辑错误造成数据重复输出
+简介：golang 限流熔断放在代理层实践，代理层统一限流熔断，对后端服务做流量保护。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/31391717.shtml
+
+原标题：项目依赖安全扫描漏洞防范
+简介：golang ip2regionIP 地址解析实战，集成 ip2region 库，根据 IP 解析归属地城市，实现 IP 地域解析。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/30428040.shtml
+
+原标题：golang 系统设计基准测试 benchmark 编写
+简介：golang grpc 客户端流上传数据，客户端流式请求，客户端分批上传数据到服务端，适合大文件传输。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/73134956.shtml
+
+原标题：golang 系统设计定时任务失败重试告警实现
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/39490706.shtml
+
+原标题：排错：macOS权限保护导致脚本执行被拦截
+简介：golang clickhouse go 客户端数据写入，clickhouse‑go 客户端写入查询，海量时序数据分析业务。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/62614928.shtml
+
+原标题：Debug：Websocket频繁断开重连根因分析
+简介：golang rabbitmq 死信队列延迟消息，rabbitmq 实现死信、延迟消息，处理延时业务场景。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/36848492.shtml
+
+原标题：golang 系统设计内存复用 sync.pool 使用
+简介：golang go 程序权限最小化运行，容器内使用普通用户运行程序，拒绝 root 运行提升安全等级。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/40616835.shtml
+
+原标题：golang docker 私有仓库搭建使用
+简介：前后端会话登录状态持久化，实现登录状态持久存储，重启服务登录状态不丢失，保障会话稳定性。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/03790368.shtml
+
+原标题：golang 系统设计 rest api 接口设计最佳实践
+简介：接口压测定位系统性能瓶颈，使用压测工具对接口施压，观察指标，定位系统性能瓶颈点。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/03690470.shtml
+
+原标题：Architecture：鉴权授权系统架构设计思路
+简介：golang aes cbc gcm 模式加密对比，AES‑CBC AES‑GCM 模式加密解密，理解两种模式差异选型。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/51268915.shtml
+
+原标题：浏览器本地存储安全使用技巧
+简介：golang 服务注册 etcd 简单示例，etcd 实现服务注册发现，微服务实例注册元数据，客户端发现节点。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/39390295.shtml
+
+原标题：架构复盘：数据库主从架构设计与延迟应对方案
+简介：golang gorm 原生 SQL 执行处理，复杂场景执行原生 SQL，处理返回结果集，兼顾性能与灵活性。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/16171625.shtml
+
+原标题：golang 系统设计性能瓶颈定位完整方法论
+简介：golang go‑fuzz 模糊测试开发，go fuzz 模糊测试，自动构造异常输入，发现代码隐藏 bug。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/95956259.shtml
+
+原标题：方案设计：批量大数据导出系统架构拆解
+简介：golang atomic 原子操作整数，atomic 加减比较交换，无锁更新整型变量，简单计数器场景。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/28693626.shtml
+
+原标题：安全复盘：OAuth2授权流程安全坑点汇总
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/40469572.shtml
+
+原标题：零基础理解幂等性基础概念与场景
+简介：golang select 随机分支执行特性，多个 channel 就绪 select 随机选择，理解 select 行为特性。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/39391793.shtml
+
+原标题：golang 系统设计线上故障排查完整流程
+简介：Nginx 静态代理负载均衡全套配置，一套 Nginx 配置示例，覆盖静态资源、反向代理、负载均衡场景。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/63624029.shtml
+
+原标题：实战：Docker资源监控查看容器状态实操
+简介：golang 互斥锁读写锁并发安全，互斥锁读写锁实操，保护共享变量，解决多协程并发读写数据竞争。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/25589801.shtml
+
+原标题：服务健康检查监控接口开发
+简介：静态博客部署 GitHub Pages 教程，将静态博客项目部署至 GitHub Pages，完成线上访问，快速搭建个人技术博客站点。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/36795769.shtml
+
+原标题：调优方案：gzip压缩开启降低网络传输体积
+简介：golang 信号量 semaphore 并发限制，基于 semaphore 实现并发数量控制，保护数据库、第三方接口不被打满。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/75751859.shtml
+
+原标题：服务启动依赖顺序配置正确
+简介：golang tcp keepalive 参数程序配置，go 程序设置 tcp keepalive，操作系统 tcp 保活参数，清理僵死连接。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/03030281.shtml
+
+原标题：方案对比：几种任务队列架构选型优缺点
+简介：golang mysql 慢查询日志程序采集解析，程序读取解析 mysql 慢查询日志，统计慢 SQL 做监控告警。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/80513917.shtml
+
+原标题：golang 系统设计 ci 流水线安全管控思路
+简介：golang arp 缓存读取操作，读取系统 arp 缓存表，获取 ip 对应的 mac 地址信息。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/96038460.shtml
+
+原标题：Hands‑on：简易连接池原型实现理解原理
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/62916961.shtml
+
+原标题：简易日志收集集中管理方案
+简介：CI 流水线构建失败日志排查，阅读 CI 流水线输出日志，定位构建脚本、依赖、环境导致流水线失败问题。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/95802462.shtml
+
+原标题：定时任务周期调度 demo 开发
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/18356142.shtml
+
+原标题：DevOps：CI构建产物缓存复用加速编译
+简介：golang gin 框架接口开发实战，Gin 框架搭建 HTTP 服务，开发增删改查接口，快速完成后端接口开发。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/84069293.shtml
+
+原标题：golang docker 镜像安全扫描漏洞
+简介：golang channel 关闭规则与坑点，关闭已经关闭 channel 会 panic，判断 channel 是否关闭正确写法。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/73593513.shtml
+
+原标题：golang 系统设计混沌测试故障注入简单示例
+简介：nodejs 消息队列消费服务开发，Node 开发消息队列消费端，监听队列消息执行业务逻辑，异步解耦业务。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/51693836.shtml
+
+原标题：架构笔记：批量任务系统架构防重复、断点续跑
+简介：golang redis 过期键监听回调，监听 key 过期事件，过期触发业务逻辑，实现过期自动处理业务场景。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/52682504.shtml
+
+原标题：快速启动：本地运行开源项目排障清单
+简介：golang atomic 原子操作整数，atomic 加减比较交换，无锁更新整型变量，简单计数器场景。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/39949130.shtml
+
+原标题：安全笔记：请求头伪造IP漏洞防护
+简介：golang redis 锁超时业务处理，Redis 分布式锁超时问题处理，锁续期逻辑，防止业务未完成锁提前释放。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/40490471.shtml
+
+原标题：golang 系统设计 api 文档 swagger redoc 落地
+简介：express 请求参数校验处理，接入参数校验库，校验入参，拦截非法参数，提前拦截错误请求。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/06059143.shtml
+
+原标题：golang 系统设计熔断算法 hystrix 思路
+简介：golang k8s 客户端 client‑go 简单示例，client‑go 操作 k8s 资源，增删改查 pod deployment 等资源对象。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/07250393.shtml
+
+原标题：API 接口调试与异常处理实战
+简介：golang go 爬虫异步并发抓取，协程池控制并发抓取网页，多协程采集，提升爬虫采集速度。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/85834037.shtml
+
+原标题：实战项目：WSL开发环境完整配置实操
+简介：golang nacos go 客户端配置服务发现，nacos‑go 对接 nacos，配置管理、微服务注册发现。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/07469404.shtml
+
+原标题：优化实践：多级缓存减少下游服务调用压力
+简介：程序性能指标 CPU 内存监控，讲解基础性能指标含义，简单实现监控采集，初步定位程序运行性能瓶颈。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/74491448.shtml
+
+原标题：架构笔记：海量消息堆积架构处理能力设计
+简介：golang 数据库连接池参数调优详解，最大连接空闲连接最大生命周期，结合业务合理配置避免资源浪费。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/15880359.shtml
+
+原标题：Issue：操作系统最大打开文件数限制导致报错
+简介：golang 系统调用跟踪 strace 排查 go 程序，strace 跟踪系统调用，定位文件网络 IO 慢的底层原因。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/17559696.shtml
+
+原标题：快速上手单元测试，写出第一个测试用例
+简介：golang dns 自定义解析器实现，自定义 dns 解析，指定 dns 服务器，控制域名解析逻辑，适配内网环境。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/40794736.shtml
+
+
+二、踩坑排错｜Troubleshooting
+原标题：HelloEnv：多操作系统环境变量配置汇总
+简介：golang redis bloom 布隆过滤器 go‑redis，go‑redis 布隆过滤器，海量数据判断是否存在，减少数据库查询。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/28271493.shtml
+
+原标题：GraphQL 接口查询优化实操
+简介：分布式任务调度集群原型开发，开发简易分布式调度原型，集群多节点运行，保证任务只执行一次。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/47473737.shtml
+
+原标题：HelloEnv：多操作系统环境变量配置汇总
+简介：SDK 版本兼容线上崩溃修复，处理 SDK 版本升级之后线上崩溃，定位 API 变更，做版本兼容适配改造。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/69602583.shtml
+
+原标题：golang 系统设计 websocket 协议原理梳理
+简介：golang oss 签名 URL 临时访问，生成 oss 临时签名 url，限时访问私有文件，保障文件访问安全可控。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/95936130.shtml
+
+原标题：golang 系统设计线上日志快速检索技巧
+简介：golang 日志脱敏敏感字段过滤，日志打印自动脱敏敏感字段，避免日志输出手机号身份证泄露隐私。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/98139138.shtml
+
+原标题：端口占用访问失败排查方案
+简介：OOMKilled 容器被杀完整排查，排查容器被 OOM 终止完整流程，区分程序内存泄露和容器内存限制过小。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/63767958.shtml
+
+原标题：踩坑记录：浮点数作为Rediskey匹配异常
+简介：express 请求参数校验处理，接入参数校验库，校验入参，拦截非法参数，提前拦截错误请求。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/72584615.shtml
+
+原标题：golang gin 框架接口开发实战
+简介：golang 内存 pprof 定位内存泄漏，pprof 分析内存快照，定位内存泄露对象，解决 Go 程序内存持续上涨。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/84735248.shtml
+
+原标题：调优方案：服务实例扩容，水平扩展性能
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/42572452.shtml
+
+原标题：设计思考：业务系统中什么时候不要用微服务
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/62656237.shtml
+
+原标题：Git 误提交撤销回退实操教程
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/40694698.shtml
+
+原标题：golang ip 限流黑名单实现方案
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/95816147.shtml
+
+原标题：Git 分支切换合并删除完整操作
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/27176350.shtml
+
+原标题：踩坑：大报文传输，RPC消息超过大小限制
+简介：golang 静态编译缩小镜像体积，Go 程序静态编译，不依赖系统库，产出单二进制文件，缩小镜像。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/64705736.shtml
+
+原标题：新手向：项目目录结构规范与含义解析
+简介：golang grpc 负载均衡客户端实现，grpc 客户端负载均衡，轮询随机权重，分发请求到多个服务实例。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/40715825.shtml
+
+原标题：golang 系统设计 go benchmark 性能测试实操
+简介：前端图片懒加载性能优化，实现图片懒加载，页面可视区域才加载图片，减少页面初始网络请求。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/30705069.shtml
+
+原标题：golang mongodb 聚合管道实操案例
+简介：golang gin 静态资源访问配置，Gin 配置静态资源目录，直接对外提供静态文件访问服务。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/08582474.shtml
+
+原标题：新手参与开源社区贡献指南
+简介：gitignore 文件编写过滤规则，讲解 gitignore 语法，编写过滤配置，忽略缓存、编译产物、密钥文件，保持仓库整洁。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/95955139.shtml
+
+原标题：golang 系统设计熔断算法 hystrix 思路
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/76957253.shtml
+
+原标题：安全实践：容器最小化镜像减少攻击面
+简介：golang 文件上传下载接口开发，Go 开发文件上传下载接口，校验文件，处理文件读写存储逻辑。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/97178069.shtml
+
+原标题：Practice：数据库分表简单实现方案与代码示例
+简介：golang go 信号处理优雅重启实现，USR2 触发程序重启，不关闭监听 socket 实现零停机升级。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/50382463.shtml
+
+原标题：Practice：实现接口mock动态返回不同响应
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/49393726.shtml
+
+原标题：golang 系统设计本地消息表可靠消息最终一致性
+简介：golang testify mock 模拟接口，mock 接口生成 mock 对象，单元测试模拟外部依赖行为。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/17490796.shtml
+
+原标题：golang github actions 多平台构建
+简介：golang go 锁竞争导致 CPU 飙升，识别锁竞争场景，减少锁粒度，优化并发逻辑降低 CPU 开销。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/73129179.shtml
+
+原标题：Practice：模拟磁盘满，验证服务降级表现
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/38371371.shtml
+
+原标题：实战项目：GitSubmodule管理多仓库实践
+简介：golang channel 缓冲无缓冲区别，缓冲 channel 与无缓冲 channel，底层行为差异业务选型参考。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/40350182.shtml
+
+原标题：Hands‑on：手写简易ORM框架理解底层原理
+简介：golang 配置中心 apollo go 客户端，apollo go sdk 读取配置，配置变更自动热更新无需重启服务。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/84161393.shtml
+
+原标题：golang 系统设计配置敏感信息加密存储方案
+简介：golang viper 多源配置管理实操，viper 读取配置文件环境变量命令行参数，多源配置优先级管理。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/73804028.shtml
+
+原标题：安全实践：防止JSON解析漏洞恶意payload
+简介：golang sync.Cond 条件变量使用，Cond 条件变量协程等待唤醒，复杂并发同步场景。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/29273614.shtml
+
+原标题：nodejs 中间件模式原理剖析
+简介：Redis 分布式锁高并发安全实现，基于 Redis 实现分布式锁，处理锁过期、续期，保障集群并发安全。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/85159281.shtml
+
+原标题：跨平台换行符统一异常修复
+简介：golang fuzz corpus 语料库使用，fuzz 语料存储历史输入，回归测试，持续复现曾经触发 bug 输入。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/51512806.shtml
+
+原标题：pnpm 包管理工具实战避坑指南
+简介：跨库查询性能优化处理，减少跨库关联查询，做数据冗余或者中间表，规避跨库查询性能低下。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/17441404.shtml
+
+原标题：数据库分表存储大表优化方案
+简介：golang 大文件读取内存优化，Go 流式读取大文件，分块处理，避免大文件一次性加载全部到内存。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/85948459.shtml
+
+原标题：golang 系统设计批量处理优化业务性能
+简介：golang gorm group by 分组统计，GORM 分组聚合统计，实现 count sum 等统计查询，快速完成统计业务。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/03628029.shtml
+
+原标题：性能笔记：RPC超时参数优化防止级联阻塞
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/64724037.shtml
+
+原标题：golang 系统设计监控缺失指标补全完整流程
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/07050280.shtml
+
+原标题：golang 数据库连接泄露排查
+简介：线程池拒绝策略任务丢失防护，合理设置线程池拒绝策略，处理任务队列满场景，避免业务任务直接丢失。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/75744235.shtml
+
+原标题：golang 系统设计 jwt 安全使用避坑要点
+简介：golang net/url 路径拼接处理，url.ParseRequestURI 处理请求 url，正确拼接 url 路径避免拼接错误。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/37956347.shtml
+
+原标题：golang http grpc 全链路埋点示例
+简介：golang sync.RWMutex 读写锁使用场景，读多写少场景读写锁，读共享写互斥，提升并发性能。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/13827936.shtml
+
+原标题：开发记录：容器日志标准输出采集实践方案
+简介：nodejs 定时任务生产环境避坑，Node 定时任务线上踩坑汇总，集群重复执行、任务阻塞等问题解决方案。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/62915147.shtml
+
+三、实战开发｜Practice
+原标题：golang docker 网络模式桥接 host
+简介：golang prometheus http 接口暴露指标，暴露 prometheus metrics 接口，输出业务运行指标，接入监控告警系统。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/40561304.shtml
+
+原标题：golang 系统设计传输加密 tls 配置要点
+简介：golang go mod 私有 git 仓库配置，配置 go mod 拉取私有仓库代码，处理私有模块依赖拉取问题。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/30491795.shtml
+
+原标题：golang 系统设计压力测试性能测试执行流程
+简介：golang 处理连接被重置 reset 错误，识别 connection reset by peer，对端关闭连接异常处理逻辑。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/96350272.shtml
+
+原标题：golang docker 多阶段构建 go 镜像
+简介：golang go list 双向链表使用，container/list 双向链表，频繁增删节点业务场景使用。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/06616840.shtml
+
+原标题：效率笔记：gitlog高效查询历史提交技巧
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/07060681.shtml
+
+原标题：架构笔记：业务系统反模式架构踩坑总结
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/52367035.shtml
+
+原标题：架构复盘：容器资源隔离架构CPU内存限制设计
+简介：HTTP 状态码请求头完整梳理，汇总常用 HTTP 状态码与请求头含义，帮助快速看懂网络请求，排查接口通信问题。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/60327812.shtml
+
+原标题：golang 系统设计线上故障排查完整流程
+简介：golang yaml 解析配置加载实操，Go 解析 YAML 配置文件，读取配置参数，驱动业务运行。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/87028060.shtml
+
+原标题：踩坑记录：乐观锁版本号处理不当更新失败
+简介：nodejs 日志轮转生产环境配置，配置 Node 日志轮转切割，防止日志文件无限变大，适配生产环境。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/63038171.shtml
+
+原标题：golang mysql 批量导入数据实操
+简介：golang 系统资源限制读取 cpu 内存，读取系统容器 cpu 内存限制，程序适配容器资源配额做业务调优。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/18285736.shtml
+
+原标题：开发生产环境资源路径统一
+简介：HTTPS 证书过期更新操作，检测 HTTPS 证书到期，更新证书文件，恢复 HTTPS 服务正常访问。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/18258069.shtml
+
+原标题：golang 系统设计会话共享多实例部署
+简介：golang time 时间格式化参考时间牢记，2006‑01‑02T15:04:05Z07:00，掌握 go 时间格式化关键点。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/95994916.shtml
+
+原标题：golang 系统设计配置敏感信息加密存储
+简介：gitignore 文件编写过滤规则，讲解 gitignore 语法，编写过滤配置，忽略缓存、编译产物、密钥文件，保持仓库整洁。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/94837359.shtml
+
+原标题：快速上手简单信号处理脚本编写
+简介：golang go math 大数高精度计算，math/big 处理超大整数、高精度浮点数，金额大数运算。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/73724949.shtml
+
+原标题：入门实战：搭建简易静态网页项目
+简介：文件分片上传断点续传功能，实现文件分片上传，记录上传进度，支持断点续传大文件上传。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/62794680.shtml
+
+原标题：开发记录：业务错误告警邮件通知组件实践
+简介：golang base64 大文件流式编解码，大文件流式 base64 转换，不用一次性加载全部文件进入内存。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/28246219.shtml
+
+原标题：golang 系统设计缓存热点 key 问题业务规避
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/29282402.shtml
+
+原标题：golang mysql 连接泄漏检测方法
+简介：golang gin 路由分组权限管控，Gin 路由分组，不同分组绑定鉴权中间件，实现接口权限分组管控。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/73135647.shtml
+
+原标题：golang 系统设计 monorepo 仓库管理方案
+简介：系统文件描述符上限调大，调高操作系统文件描述符上限，解决高并发场景打开文件报错。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/92913524.shtml
+
+原标题：性能复盘：网络IO优化减少接口等待时间
+简介：golang 日志级别动态调整热更新，不用重启程序动态修改日志输出级别，线上调试排查问题十分方便。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/05146857.shtml
+
+原标题：线上异常：接口偶发超时，完整定位过程记录
+简介：golang 自定义 http round tripper，封装 http 客户端拦截，实现请求日志、签名、重试统一处理逻辑。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/36367035.shtml
+
+原标题：线上故障：第三方接口超时未设置熔断雪崩
+简介：nodejs 消息队列消费服务开发，Node 开发消息队列消费端，监听队列消息执行业务逻辑，异步解耦业务。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/17135723.shtml
+
+原标题：服务健康检查监控接口开发
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/91794615.shtml
+
+原标题：webpack chunk 分包策略详解
+简介：golang CPU 绑定亲和性设置 go 程序，设置进程 CPU 亲和绑定核心，减少 CPU 调度开销，提升计算性能。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/14146025.shtml
+
+原标题：无用对象回收抑制内存上涨
+简介：golang context.WithTimeout 超时上下文，WithTimeout 设置超时时间，超时自动 cancel 释放协程。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/15257059.shtml
+
+原标题：实践：OpenAPI自动生成接口文档完整实践
+简介：版本升级服务启动失败处理，版本更新之后服务无法启动，对比新旧版本配置、依赖差异，完成故障修复。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/69362460.shtml
+
+原标题：设计思考：分布式会话架构选型对比
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/14137925.shtml
+
+原标题：golang mock 单元测试编写技巧
+简介：nodejs 全局异常捕获进程防护，捕获未捕获异常与 Promise 拒绝，尽量保护进程不因为异常直接退出。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/28240249.shtml
+
+原标题：HelloEnv：多操作系统环境变量配置汇总
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/70791382.shtml
+
+原标题：部署实践：Nginx反向代理传递真实客户端IP
+简介：HTTPS 证书过期更新操作，检测 HTTPS 证书到期，更新证书文件，恢复 HTTPS 服务正常访问。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/13146825.shtml
+
+原标题：接口签名校验防篡改实现
+简介：golang http 文件下载断点续传服务，服务端实现断点续传，支持大文件分段下载，提升大文件下载稳定性。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/96036830.shtml
+
+原标题：golang 内存 pprof 定位内存泄漏
+简介：golang 优雅处理数据库事务，Go 数据库事务封装，正确处理事务提交回滚，保证业务数据一致性。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/58571570.shtml
+
+原标题：内存溢出问题现象识别排查
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/03795802.shtml
+
+原标题：开发复盘：超时参数统一治理线上服务实践
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/28240258.shtml
+
+原标题：Debug：异步任务堆积，服务响应越来越慢
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/35028057.shtml
+
+原标题：golang kafka 消费者偏移量管理
+简介：golang gorm 索引设置与优化技巧，定义数据库索引，理解索引生效条件，避免索引失效慢查询。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/79680491.shtml
+
+原标题：架构笔记：WebSocket大规模连接服务架构
+简介：golang gin 中间件执行顺序讲解，理解 Gin 中间件注册顺序，区分前置后置逻辑，规避中间件顺序 bug。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/50402503.shtml
+
+原标题：golang mysql json 字段查询使用
+简介：golang http 客户端连接泄漏排查，http client 未读取响应体导致连接无法复用，解决连接泄漏耗尽连接池。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/91515791.shtml
+
+原标题：后端大文件分片上传接口开发
+简介：golang go panic 合理使用边界，panic 只用于不可恢复程序错误，业务逻辑禁止直接 panic。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/29259179.shtml
+
+原标题：正则表达式优化 CPU 占满问题
+简介：golang go panic 合理使用边界，panic 只用于不可恢复程序错误，业务逻辑禁止直接 panic。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/28240246.shtml
+
+四、架构设计｜Architecture
+原标题：Hands‑on：简易网关路由转发组件开发
+简介：golang 错误静默忽略风险规避，禁止空忽略错误，必须处理或者明确注释为什么忽略错误。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/80462491.shtml
+
+原标题：安全笔记：GitHubAction密钥安全管理
+简介：Nginx 静态代理负载均衡全套配置，一套 Nginx 配置示例，覆盖静态资源、反向代理、负载均衡场景。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/70351513.shtml
+
+原标题：游标分页大数据查询性能提升
+简介：golang io.MultiReader MultiWriter 拼接流，多个 reader 拼接，多 writer 同时写入一份数据。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/29351680.shtml
+
+原标题：golang makefile 自动化构建脚本
+简介：CI/CD 流水线自动构建部署落地，搭建完整 CI/CD 流水线，代码提交自动构建、测试、部署到目标环境。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/28561569.shtml
+
+原标题：Nginx 反向代理路由配置实战
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/81824725.shtml
+
+原标题：golang nginx 反向代理 go 服务配置
+简介：批量数据处理脚本编写技巧，编写脚本批量处理大量业务数据，循环处理、分批执行，提升数据处理效率。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/17135957.shtml
+
+原标题：入门实践：使用Git完成第一次代码提交与推送
+简介：golang go mod exclude 排除依赖版本，exclude 排除有问题依赖版本，规避有 bug 的第三方包。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/81580391.shtml
+
+原标题：golang http grpc 全链路埋点示例
+简介：golang tcp_NODELAY 关闭延迟发送，设置 tcp_NODELAY，关闭 Nagle 算法，降低小包请求延迟。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/58274725.shtml
+
+原标题：golang alertmanager 钉钉告警推送
+简介：业务错误码体系设计方案，设计项目统一错误码，区分不同业务异常，标准化错误返回，便于前端识别处理。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/84806935.shtml
+
+原标题：调优方案：MySQL缓冲池参数性能调优实践
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/16357168.shtml
+
+原标题：Troubleshooting：WSL文件权限问题大量踩坑
+简介：golang http 服务并发连接数限制，自定义 listener 统计连接数量，限制最大并发连接数保护服务。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/81837025.shtml
+
+原标题：实践：代码提交前自动格式化校验配置实践
+简介：golang gin 框架接口开发实战，Gin 框架搭建 HTTP 服务，开发增删改查接口，快速完成后端接口开发。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/52613635.shtml
+
+原标题：排错：容器OOM被杀死，日志看不到任何输出
+简介：Git 代码冲突正确处理方式，讲解冲突产生场景，演示冲突文件修改，正确合并代码，防止代码丢失。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/40681491.shtml
+
+原标题：golang 系统设计缓存预热脚本编写实操
+简介：跨域偶现失败配置修复，解决跨域问题时而复现时而正常，定位配置漏配、请求头异常等隐性问题。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/80803680.shtml
+
+原标题：golang 系统设计 grpc proto 接口设计原则
+简介：WebSocket 断线重连稳定优化，增加 WebSocket 断线自动重连逻辑，处理网络抖动，维持长连接稳定。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/28249948.shtml
+
+原标题：布隆过滤器数据高效去重实现
+简介：代理 HTTPS 证书访问异常处理，配置代理根证书，解决代理环境 HTTPS 证书校验失败无法访问外网。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/72024836.shtml
+
+原标题：golang 系统设计 json 解析性能优化实操
+简介：日志驱动异常日志不输出修复，排查日志驱动配置，修复日志写入配置，恢复程序正常日志输出。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/93694793.shtml
+
+原标题：golang 大文件读取内存优化
+简介：golang 消息队列实现事务消息方案，基于 kafka 实现事务消息，业务执行成功才对外投递消息。
+ | 原文链接：http://www.blog.ivktbc.cn/hbtmd/75906614.shtml
+
+?
