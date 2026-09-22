@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计数据库扩容几种方式
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/80224685.html
+
+原标题：golang 系统设计链路查询定位慢请求实操技巧
+简介：JSON XML 数据解析处理示例，演示两种格式数据解析与序列化，增加异常捕获，处理格式错乱导致解析失败。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/04465676.html
+
+原标题：架构复盘：分表扩容架构平滑迁移思路
+简介：golang 压缩 zip 文件生成解压，golang 实现 zip 压缩打包，解压 zip 归档文件，处理批量文件归档。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/03334655.html
+
+原标题：nodejs 流处理大文件不占内存
+简介：golang 自定义 pprof 扩展业务指标，扩展 pprof，输出业务自定义指标，结合性能数据分析业务状态。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/98789212.html
+
+原标题：零基础理解版本控制核心概念与工作流
+简介：golang io.Reader io.Writer 接口理解，io 读写接口，各类数据源统一抽象，适配 io 复制函数。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/36557867.html
+
+原标题：golang 接口请求日志记录中间件
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/62356565.html
+
+原标题：开发环境变量配置全平台教程
+简介：Nginx 丢失请求头配置修正，修复 Nginx 代理转发丢失请求头配置，保证上游服务拿到完整请求头信息。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/46858903.html
+
+原标题：架构复盘：系统扩容缩容架构无状态优先原则
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/86177977.html
+
+原标题：golang mysql 避免 select * 查询
+简介：golang 分表跨表 join 查询处理方案，分表后跨分片关联查询解决方案，业务层聚合代替数据库 join。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/56442989.html
+
+原标题：快速上手简单信号处理脚本编写
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/05634207.html
+
+原标题：项目实践：接口压测，逐步加压观察系统表现
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/25286643.html
+
+原标题：快速入门OpenAPI文档生成基础实践
+简介：网关超时时间调优后端等待，调大网关向后端转发请求超时时间，给后端业务充足处理时间。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/06199874.html
+
+原标题：golang 系统设计 tcp 三次握手四次挥手梳理
+简介：monorepo 项目多包管理最佳实践，monorepo 仓库管理多子包，统一版本管理，处理包之间互相依赖。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/80947567.html
+
+原标题：golang 系统设计 README 开源文档模板
+简介：热更新开发环境配置教程，配置代码热重载，修改代码无需重启服务立即生效，大幅提升本地开发调试效率。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/25869341.html
+
+原标题：golang 空接口 interface 使用技巧
+简介：golang goreleaser 自动版本发布打包，goreleaser 自动化打包发布，生成多平台二进制归档文件。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/63378019.html
+
+原标题：静态站点自动部署发布方案
+简介：golang 后端节点健康检查机制实现，定时探测后端节点状态，自动剔除故障节点，保障转发可用。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/95890267.html
+
+原标题：golang redis 发布订阅简单示例
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/40238024.html
+
+原标题：golang go test 覆盖率统计实操
+简介：nodejs 消息队列消费服务开发，Node 开发消息队列消费端，监听队列消息执行业务逻辑，异步解耦业务。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/41458968.html
+
+原标题：golang http grpc 全链路埋点示例
+简介：golang prometheus http 接口暴露指标，暴露 prometheus metrics 接口，输出业务运行指标，接入监控告警系统。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/17913914.html
+
+原标题：golang http 请求重试封装工具
+简介：golang socket 文件描述符继承重启，父进程传递 listener fd 给子进程，实现 go 程序零停机热重启。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/17174992.html
+
+原标题：golang 系统设计会话共享多实例部署
+简介：前端图片懒加载性能优化，实现图片懒加载，页面可视区域才加载图片，减少页面初始网络请求。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/74014835.html
+
+原标题：Debug：表单提交特殊字符造成接口解析失败
+简介：golang 集成测试测试数据库回滚，集成测试结束自动回滚数据库，不污染测试环境数据。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/96047345.html
+
+原标题：Practice：模拟网络抖动验证服务容错能力
+简介：golang 分布式唯一 id 多种方案对比，雪花、redis、uuid 对比各方案优缺点，指导业务选型使用。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/73668245.html
+
+原标题：golang 系统设计内部服务熔断降级配置思路
+简介：golang net/http/httptest 服务端模拟，httptest.NewRecorder 记录 handler 响应，校验返回状态码 body。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/27115124.html
+
+原标题：项目实践：本地模拟多节点分布式系统实践
+简介：golang 容器内读取 k8s 配置 configmap，程序读取 k8s configmap 配置，配置与镜像分离便于运维。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/95806791.html
+
+原标题：gitignore 文件编写过滤规则
+简介：Docker 容器入门镜像实操教程，介绍 Docker 基础概念，演示镜像拉取、容器启停，帮助新手建立容器化开发认知。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/73613450.html
+
+原标题：新手教程：gitrebase基础使用与风险提示
+简介：golang yaml 解析配置加载实操，Go 解析 YAML 配置文件，读取配置参数，驱动业务运行。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/47457145.html
+
+原标题：设计思考：容器化业务应用架构改造要点
+简介：golang go http 服务器优雅关闭完整代码，http.Server Shutdown，等待现有请求处理完成关闭服务。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/94723580.html
+
+原标题：方案对比：定时任务框架选型与架构对比
+简介：Nginx 缓冲区调优大文件上传，调大 Nginx 请求缓冲区，支持客户端上传大体积文件，避免上传被截断。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/17724623.html
+
+原标题：golang 系统设计分布式事务业务选型决策思路
+简介：golang 处理连接被重置 reset 错误，识别 connection reset by peer，对端关闭连接异常处理逻辑。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/27035813.html
+
+原标题：Hands‑on：简易短链接服务完整开发实践
+简介：golang 程序崩溃 core dump 生成调试，开启 core dump，程序崩溃生成转储文件，事后分析崩溃原因。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/83503781.html
+
+原标题：golang html 模板渲染简单示例
+简介：golang io.LimitReader 限制读取字节数，LimitReader 限制最大读取，防止读取超大数据。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/12913902.html
+
+原标题：Performance：数据库分表解决单表过大性能衰减
+简介：golang go 程序 CPU 占用高定位步骤，pprof 定位热点函数，分析 CPU 高占用，优化耗时代码逻辑。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/62583678.html
+
+原标题：nodejs 集群模式多核利用实现
+简介：GC 垃圾回收优化降低 CPU 占用，调整 GC 参数，优化对象创建销毁，降低垃圾回收带来 CPU 开销。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/51561589.html
+
+原标题：避坑：定时任务重复执行带来业务脏数据
+简介：golang fasthttp 服务开发完整示例，fasthttp 搭建 http 服务，路由、参数读取、响应返回完整业务。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/30270268.html
+
+原标题：记一次内存Swap被大量使用系统响应缓慢
+简介：业务幂等键设计防重复逻辑，讲解幂等键设计思路，选择合适业务字段作为幂等标识，实现可靠防重复。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/29124590.html
+
+原标题：设计思考：系统容量评估架构前期估算思路
+简介：无用对象回收抑制内存上涨，优化对象生命周期，及时释放不再使用对象，抑制内存持续不断增长。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/81891248.html
+
+原标题：golang etcd watch 监听配置变更
+简介：golang 协程 panic 捕获防止崩溃，协程内部捕获 panic，防止单个协程恐慌造成整个 Go 进程崩溃。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/62508347.html
+
+原标题：文件批量导入导出功能实现
+简介：线程调度优化减少上下文切换，优化线程数量，减少线程频繁切换，降低 CPU 上下文切换开销。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/17892790.html
+
+原标题：版本升级服务启动失败处理
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/27167389.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 接口返回统一封装工具
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/73704913.html
+
+原标题：调优方案：MySQL缓冲池参数性能调优实践
+简介：golang 命令行交互 cobra 开发 cli，cobra 库开发功能完善命令行工具，子命令参数标志解析。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/79150340.html
+
+原标题：golang 优雅停机服务关闭实现
+简介：极简 API 网关路由转发实现，开发极简网关服务，完成请求路由转发，理解网关基础实现原理。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/17013525.html
+
+原标题：设计思考：消息顺序性架构保证与业务妥协
+简介：golang gorm 事务手动回滚提交，手动控制事务流程，业务异常主动回滚，保障数据操作原子性。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/52458468.html
+
+原标题：golang 系统设计 git 钩子自动化校验实现
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/74902717.html
+
+原标题：Hands‑on：编写自定义Git钩子实现代码提交校验
+简介：多环境配置中心灵活切换方案，简易配置中心实现，支持多套环境配置，动态下发无需重启服务。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/84480356.html
+
+原标题：golang md5 sha 加密工具实现
+简介：golang html 模板防 xss 自动转义，理解 go html/template 自动转义，防止 XSS 攻击，处理不需要转义场景。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/30351351.html
+
+原标题：开发复盘：海量日志轮转清理脚本实践
+简介：前端工程化 webpack 打包优化，针对 webpack 项目做打包调优，分包、压缩、Tree‑Shaking，缩减包体积。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/06378191.html
+
+原标题：日志敏感信息脱敏泄露防护
+简介：golang channel 缓冲无缓冲区别，缓冲 channel 与无缓冲 channel，底层行为差异业务选型参考。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/50492292.html
+
+原标题：golang mysql 字符集排序规则设置
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/83379149.html
+
+原标题：golang 系统设计开源项目依赖版本升级维护
+简介：golang wasm 性能优化与内存管理，wasm 内存分配释放，减少内存拷贝，优化浏览器端性能。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/17003526.html
+
+原标题：入门实践：使用模板快速生成项目脚手架
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/17058249.html
+
+原标题：Practice：简易限流器分布式版本Redis实现
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/39125835.html
+
+原标题：golang es 分词器选型业务适配
+简介：golang channel 缓冲无缓冲区别，缓冲 channel 与无缓冲 channel，底层行为差异业务选型参考。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/38168467.html
+
+原标题：快速上手调试工具定位简单代码错误
+简介：nodejs 脚手架工具开发完整教程，从零开发 Node 命令行脚手架，实现项目模板生成，理解 CLI 开发。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/02002379.html
+
+原标题：golang 系统设计混沌测试故障注入简单示例
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/61470240.html
+
+原标题：开发记录：接口请求日志记录完整中间件实现
+简介：golang websocket 服务端开发，Go 实现 WebSocket 服务端，处理连接、消息收发，实现长连接服务。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/72557457.html
+
+原标题：Redis 内存淘汰策略数据防丢失
+简介：golang 子进程超时杀死防止挂住，context 控制子进程超时，超时强制杀掉子进程，避免子进程僵尸。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/85791690.html
+
+原标题：Performance：避免全表扫描索引失效场景汇总
+简介：golang clickhouse go 客户端数据写入，clickhouse‑go 客户端写入查询，海量时序数据分析业务。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/57037806.html
+
+原标题：CLI 批量处理工具文件操作开发
+简介：golang 分布式事务 seata go 客户端，seata‑go 实现分布式事务，保证跨库业务数据最终一致性。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/18229050.html
+
+原标题：开发记录：短信发送服务封装，失败重试策略
+简介：接口签名校验防篡改实现，实现请求签名验签逻辑，校验请求参数未被篡改，提升接口调用安全性。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/18047834.html
+
+原标题：前端骨架屏提升页面体验
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/79260137.html
+
+原标题：踩坑记录：时间戳精度不一致引发判断错误
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/39357257.html
+
+原标题：安全实践：接口速率限制防止暴力破解
+简介：golang http 代理客户端配置，Go HTTP Client 配置代理，通过代理服务器发起网络请求。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/51561351.html
+
+原标题：架构笔记：任务调度系统架构设计与可靠性
+简介：JWT 工具封装令牌刷新过期，封装 JWT 工具类，实现令牌生成、校验、过期刷新整套令牌管理逻辑。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/69168135.html
+
+原标题：无用对象回收抑制内存上涨
+简介：golang 时间戳秒毫秒纳秒转换，Unix UnixMilli UnixNano 互相转换，区分单位避免时间逻辑 bug。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/51335134.html
+
+原标题：Troubleshooting：k8s镜像拉取失败镜像仓库网络问题
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/17457068.html
+
+原标题：本地简易配置中心动态管理
+简介：golang os 主机名内核版本读取，os 读取主机名，内核信息，操作系统版本，获取运行环境信息。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/09234611.html
+
+原标题：架构笔记：分库分表中间件选型业务约束
+简介：项目目录结构规范化最佳实践，梳理源码、配置、静态资源目录划分，规范项目布局，提升代码可读性和可维护性。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/28128128.html
+
+原标题：golang 系统设计读写穿透更新缓存几种方案
+简介：golang grpc 双向流双向通信开发，grpc 双向流，服务端客户端持续互发消息，长连接流式业务场景。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/34825915.html
+
+原标题：复盘总结：系统压测报告模板与分析思路
+简介：golang sort 切片排序自定义 less，sort.Slice 切片快速排序，自定义 less 函数实现业务排序。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/36447836.html
+
+原标题：golang 系统设计大表加索引线上执行方案
+简介：时间同步修复令牌提前过期，服务器时间不同步导致 JWT 令牌提前过期，同步系统时间解决异常。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/46946612.html
+
+原标题：开发记录：JWT过期刷新滑动过期实现实践
+简介：golang http body 必须关闭的重要性，无论成功失败必须关闭 request.Body，否则连接无法复用泄漏。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/05890141.html
+
+原标题：golang 系统设计日志级别业务使用原则梳理
+简介：Redis 分布式锁高并发安全实现，基于 Redis 实现分布式锁，处理锁过期、续期，保障集群并发安全。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/51656246.html
+
+原标题：golang 系统设计缓存 key 命名规范最佳实践
+简介：golang 数据库连接池参数调优详解，最大连接空闲连接最大生命周期，结合业务合理配置避免资源浪费。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/47157915.html
+
+原标题：golang 开发环境快速搭建指南
+简介：golang csv 百万级数据导入数据库，流式读取 csv 分批写入数据库，避免一次性加载全部数据。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/51614689.html
+
+原标题：golang 系统设计分布式事务几种方案
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/13714693.html
+
+原标题：安全实践：接口速率限制防止暴力破解
+简介：golang 性能压测 wr 工具实操指南，wr 压测工具对 Go 接口压测，观察 QPS 延迟，定位接口性能瓶颈。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/06257902.html
+
+原标题：golang 系统设计开源 pr 评审合并流程实操
+简介：golang 分库分表简单路由实现，简易分表路由逻辑实现，根据分片 key 计算分片位置，数据路由写入。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/57047904.html
+
+原标题：golang redis 事务 multi exec 使用
+简介：golang gin 静态资源访问配置，Gin 配置静态资源目录，直接对外提供静态文件访问服务。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/80380280.html
+
+三、实战开发｜Practice
+原标题：golang 分布式锁防死锁处理
+简介：golang gin 路由动态注册实现方案，根据配置动态注册接口路由，无需硬编码路由，适配动态业务模块。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/49347027.html
+
+原标题：golang 系统设计采样策略降低链路存储开销
+简介：golang go 符号表与调试信息取舍，区分生产环境调试符号取舍，平衡镜像体积与故障排查能力。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/83603613.html
+
+原标题：安全组端口开放网络访问
+简介：布隆过滤器误判问题修正，调整布隆过滤器参数，降低误判概率，保证业务去重逻辑准确。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/06994025.html
+
+原标题：golang 系统设计 protobuf 命名规范最佳实践
+简介：golang context 取消传播机制，父 ctx 取消，所有派生子 context 全部被取消，理解上下文传播。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/13124723.html
+
+原标题：方案设计：高可用Redis集群架构选型对比
+简介：golang 日志级别动态调整热更新，不用重启程序动态修改日志输出级别，线上调试排查问题十分方便。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/62571402.html
+
+原标题：一次JWT令牌过期时间异常问题复盘
+简介：hosts 配置本地回环访问修复，修改 hosts 配置，修复 127.0.0.1 解析异常，本地服务访问失败问题。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/46994680.html
+
+原标题：golang 系统设计结构化日志字段规范约定
+简介：分页逻辑错误数据漏查修复，修复分页查询逻辑漏洞，解决分页漏数据、重复返回数据等业务问题。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/51341168.html
+
+原标题：设计思考：业务系统中什么时候不要用微服务
+简介：golang gorm 预加载关联查询优化，GORM 预加载关联数据，避免 N+1 查询问题，提升数据库查询性能。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/13684795.html
+
+原标题：golang 系统设计数据库表设计通用规范模板
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/56948035.html
+
+原标题：golang 系统设计 rest 状态码合理使用指南
+简介：golang lru 缓存淘汰算法编写，手写 LRU 缓存淘汰算法，实现本地缓存，淘汰最久未使用数据。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/28113602.html
+
+原标题：HelloCI：理解持续集成基础工作流程
+简介：golang rate 令牌桶限流器源码理解，拆解令牌桶限流核心逻辑，理解令牌生成消耗，掌握限流底层原理。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/39257923.html
+
+原标题：开源实践：给开源项目写单元测试贡献代码
+简介：golang go 错误包装 fmt.Errorf % w，使用 % w 包装错误，支持 errors.Is errors.As 判断错误类型。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/57458068.html
+
+原标题：golang 系统设计压测指标 qps rt 错误率讲解
+简介：接口请求重试容错机制实现，封装请求重试逻辑，遇到临时网络故障自动重试，提升第三方调用稳定性。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/08139024.html
+
+原标题：golang 系统设计压测数据构造方法实现
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/02523512.html
+
+原标题：避坑：Nginx配置错误导致请求丢失Header
+简介：golang raw socket 底层网络报文收发，raw socket 收发原始网络报文，做网络抓包数据包处理。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/83668360.html
+
+原标题：golang 单元测试 table‑driven
+简介：golang http client 全局变量复用，http Client 不要每次请求新建，复用 Transport 提升性能。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/17122578.html
+
+原标题：golang 系统设计基准测试 benchmark 编写
+简介：HTTPS 证书过期更新操作，检测 HTTPS 证书到期，更新证书文件，恢复 HTTPS 服务正常访问。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/18247912.html
+
+原标题：golang 系统设计消息 key 选择保证顺序性方案
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/40370469.html
+
+原标题：nodejs 集群模式多核利用实现
+简介：golang redis 客户端业务使用，Go Redis 客户端对接，实现缓存、计数器，适配各类 Redis 业务场景。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/91682579.html
+
+原标题：golang k8s liveness readiness 探针
+简介：golang 本地消息表实现最终一致性，本地消息表 + 定时任务轮询，可靠消息实现分布式事务。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/67456246.html
+
+原标题：Performance：JSON序列化性能优化实践
+简介：WebSocket 双向通信 demo 开发，搭建简易 WebSocket 服务，实现客户端服务端双向消息推送，理解实时通信原理。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/51582458.html
+
+原标题：优化实践：LRU本地缓存优化热点访问性能
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/51502563.html
+
+原标题：golang 系统设计内存高占用排查思路
+简介：golang 模糊测试 go fuzz 基础编写，Fuzz 测试函数，自动生成随机输入，发现代码崩溃 panic。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/13661168.html
+
+原标题：Hands‑on：简易网关路由转发组件开发
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/28126891.html
+
+原标题：Security：限流防爬虫防恶意攻击防护体系
+简介：Git 仓库瘦身加快克隆下载速度，清理 Git 仓库历史大文件，缩减仓库体积，提升克隆拉取仓库速度。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/93526589.html
+
+原标题：Hands‑on：编写自定义Git钩子实现代码提交校验
+简介：golang aes 对称加密解密示例，AES 对称加密解密实现，业务敏感数据加密存储传输。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/57005578.html
+
+原标题：Hands‑on：简易的事件订阅发布组件开发实践
+简介：端口占用释放资源重启服务，查找占用端口进程，结束占用进程，释放端口，让服务能够正常启动监听。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/79999144.html
+
+原标题：网络读取超时设置连接挂起防护
+简介：golang go json 序列化自定义字段，json 标签控制字段名称、忽略字段、omitempty 空值忽略。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/47001676.html
+
+原标题：golang 系统设计开源版本发布 changelog 维护
+简介：golang go 爬虫异步并发抓取，协程池控制并发抓取网页，多协程采集，提升爬虫采集速度。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/72223679.html
+
+原标题：踩坑：对象未释放，长时间运行内存持续上涨
+简介：golang 优雅处理数据库事务，Go 数据库事务封装，正确处理事务提交回滚，保证业务数据一致性。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/38238369.html
+
+原标题：方案对比：定时任务框架选型与架构对比
+简介：golang go 领域驱动 DDD 项目分层，go 项目 DDD 分层架构，领域层应用层基础设施层划分业务代码。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/63661202.html
+
+原标题：部署实践：Nginx高可用配置方案实践
+简介：golang trace 可视化分析协程阻塞，使用 trace 网页 UI，定位协程阻塞、系统调用阻塞、锁等待。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/03895689.html
+
+原标题：线上异常：缓存雪崩带来数据库压力瞬间飙升
+简介：golang excel 简单读写操作示例，Go 实现 Excel 简单读写，业务数据导出 Excel 报表。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/06815624.html
+
+原标题：入门实践：简单重试逻辑封装实现
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/95712473.html
+
+原标题：Hands‑on：简易布隆过滤器实现与测试验证
+简介：golang strconv 字符串类型转换，字符串转数字布尔，处理转换失败 error，避免 panic。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/29244945.html
+
+原标题：正则表达式优化 CPU 占满问题
+简介：golang gin 中间件执行顺序讲解，理解 Gin 中间件注册顺序，区分前置后置逻辑，规避中间件顺序 bug。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/53789583.html
+
+原标题：golang 单例模式实现几种方式
+简介：golang 时间轮算法实现延时调度，手写简易时间轮，高并发大量延时任务，降低轮询 CPU 消耗。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/95800169.html
+
+原标题：运维笔记：磁盘inode耗尽故障排查处理
+简介：golang http 服务性能优化调参，调优 Go HTTP 服务参数，调整连接池，提升服务并发吞吐能力。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/27257134.html
+
+原标题：golang 限流熔断降级完整示例
+简介：golang rabbitmq go 客户端生产消费，streadway/amqp 实现 rabbitmq 生产者消费者，队列交换机绑定。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/03693470.html
+
+原标题：Performance：数据库分表解决单表过大性能衰减
+简介：golang 项目 makefile 脚本编写，编写 Makefile 脚本，封装编译、测试、构建命令，简化项目操作。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/15815135.html
+
+四、架构设计｜Architecture
+原标题：golang 系统设计配置灰度下发简单实现思路
+简介：布隆过滤器数据高效去重实现，实现布隆过滤器组件，用于海量数据去重，节省大量内存空间。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/13793562.html
+
+原标题：golang 系统设计接口参数防篡改校验
+简介：golang 探测文件真实内容类型，读取文件头部字节判断真实文件格式，规避后缀伪造。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/41461712.html
+
+原标题：静态资源 404 路径打包修复
+简介：golang gorm 预加载关联查询优化，GORM 预加载关联数据，避免 N+1 查询问题，提升数据库查询性能。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/74704802.html
+
+原标题：golang 系统设计磁盘满故障应急处理步骤
+简介：前端 pdf 预览渲染方案对比，对比前端 PDF 预览库，分析性能、兼容性，给出业务选型参考。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/94715712.html
+
+原标题：安全复盘：Nginx配置不当带来的安全风险
+简介：前端 pdf 预览渲染方案对比，对比前端 PDF 预览库，分析性能、兼容性，给出业务选型参考。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/62633562.html
+
+原标题：golang 系统设计压测工具 vegeta 使用示例
+简介：全局时间标准统一逻辑错乱修复，全服务统一使用同一时间标准，不要混用本地时间 UTC，修复时间逻辑 bug。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/74734747.html
+
+原标题：内网 DNS 不稳定随机报错排查
+简介：golang 数据库连接池泄露检测逻辑，监控连接池状态，检测连接长时间未归还，告警连接泄漏问题。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/07138130.html
+
+原标题：API 大版本不兼容平滑迁移
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/62582514.html
+
+原标题：golang 系统设计定时任务执行超时中断防护
+简介：JSON XML 数据解析处理示例，演示两种格式数据解析与序列化，增加异常捕获，处理格式错乱导致解析失败。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/52577481.html
+
+原标题：一次数据库死锁现场分析与解决方案记录
+简介：golang 分布式锁 redis 实现，基于 Redis 实现 Go 分布式锁，解决多实例并发竞争资源问题。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/71917079.html
+
+原标题：部署复盘：静态站点部署CDN完整流程
+简介：golang mysql 长连接检测保活设置，配置 mysql 连接保活检测，剔除失效连接，避免拿到断开无效数据库连接。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/41579695.html
+
+原标题：golang ci 流水线单元测试集成测试
+简介：golang go‑fuzz 模糊测试开发，go fuzz 模糊测试，自动构造异常输入，发现代码隐藏 bug。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/85940594.html
+
+原标题：异步任务堆积消费能力优化
+简介：RPC 接口字段增减兼容处理，RPC 接口新增删除字段做好向前兼容，老版本服务不会解析报错崩溃。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/96279671.html
+
+原标题：批量操作分批处理防止 OOM
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/52947917.html
+
+原标题：避坑：Nginx配置错误导致请求丢失Header
+简介：SDK 版本兼容线上崩溃修复，处理 SDK 版本升级之后线上崩溃，定位 API 变更，做版本兼容适配改造。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/96057069.html
+
+原标题：架构笔记：冷热数据分离架构设计与迁移
+简介：golang 内存 dump 线上堆快照采集，线上生成内存 dump 文件，线下分析，定位内存泄漏问题。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/42614624.html
+
+原标题：Practice：模拟缓存雪崩缓存击穿验证防护策略
+简介：golang html 模板渲染简单示例，Go HTML 模板渲染，服务端渲染页面，填充数据输出 HTML 页面。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/30403917.html
+
+原标题：踩坑记录：乐观锁版本号处理不当更新失败
+简介：golang cron 任务漂移问题处理，cron 任务执行超时导致任务漂移，通过分布式锁防止任务重叠执行。
+ | 原文链接：http://www.blog.zzdil.cn/eramb/64837369.html
+
+?
