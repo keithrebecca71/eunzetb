@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：优化实践：序列化框架性能对比选型实践
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/50046804.html
+
+原标题：golang 系统设计消息发送确认机制配置实操
+简介：golang http client 全局变量复用，http Client 不要每次请求新建，复用 Transport 提升性能。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/05902503.html
+
+原标题：golang 系统设计 hot‑reload 热重载 go 开发工具
+简介：golang 大文件 HTTP 流式上传接收，服务端流式接收上传文件，不全部加载内存，防止大文件 OOM 崩溃。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/17126813.html
+
+原标题：golang mysql 时间类型选型避坑
+简介：文件描述符优化进程卡死修复，及时关闭文件句柄，控制打开文件数量，解决文件句柄耗尽进程卡死。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/51568024.html
+
+原标题：golang minio 存储桶权限管控配置
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/31317463.html
+
+原标题：消息消费重试次数限制防爆炸
+简介：golang 简单爬虫请求防封禁，简易 Go 爬虫实现，增加请求间隔、UA 伪装，规避被目标站点封禁 IP。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/39383515.html
+
+原标题：从零搭建简单CLI命令行工具
+简介：nodejs 流处理大文件不占内存，使用 Node.js 流处理超大文件，边读边写，不需要全部加载进内存。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/70806572.html
+
+原标题：Performance：数据库分表解决单表过大性能衰减
+简介：golang 容器时区设置镜像构建处理，镜像内部设置正确时区，解决容器时间与宿主机不一致。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/30371793.html
+
+原标题：golang 系统设计集成测试数据库回滚重置方案
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/17058957.html
+
+原标题：golang rate‑limiter 限流组件
+简介：数据库分表路由写入分片修正，修复分表路由逻辑，保证数据写入正确分片，不会出现数据丢失错乱。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/63616922.html
+
+原标题：Architecture：日志、监控、告警整套可观测架构
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/26369574.html
+
+原标题：方案设计：分布式锁失效风险架构层面规避
+简介：golang go decimal 定点小数金额计算，decimal 库处理金额，规避 float64 精度丢失，财务计算。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/96024139.html
+
+原标题：golang k8s pod 优雅关闭流程讲解
+简介：golang redis 客户端业务使用，Go Redis 客户端对接，实现缓存、计数器，适配各类 Redis 业务场景。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/94230364.html
+
+原标题：golang 系统设计故障预案编写模板参考示例
+简介：Spring 事务传播机制配置生效，理解事务传播行为，正确配置，修复事务不生效、事务失效的业务 bug。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/75824737.html
+
+原标题：TCP 心跳检测清理僵死连接
+简介：文件分片上传断点续传功能，实现文件分片上传，记录上传进度，支持断点续传大文件上传。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/73714136.html
+
+原标题：实战项目：本地模拟磁盘IO高负载观察服务行为
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/81503039.html
+
+原标题：跨平台换行符统一异常修复
+简介：golang 数据库连接耗尽排查思路，监控连接池状态，定位连接未归还，解决连接耗尽报错。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/07748252.html
+
+原标题：golang 系统设计消息队列降级业务开关实现
+简介：golang benchmark 减少测试干扰，benchmark 执行循环 b.N，避免循环内部做非被测逻辑干扰结果。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/60459148.html
+
+原标题：golang es 分页深分页性能优化
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/71347923.html
+
+原标题：HelloGitHubPages：部署你的第一个静态博客
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/82681360.html
+
+原标题：缓存过期策略优化防业务故障
+简介：golang 反向代理 http 服务开发，手写简易 http 反向代理，转发请求，修改请求头响应头。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/95150140.html
+
+原标题：运维笔记：服务器磁盘内存监控告警配置
+简介：golang go math 大数高精度计算，math/big 处理超大整数、高精度浮点数，金额大数运算。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/96061463.html
+
+原标题：架构笔记：业务系统反模式架构踩坑总结
+简介：golang hertz 反向代理与负载均衡，hertz 实现反向代理，内置负载均衡，快速搭建网关类服务。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/71895807.html
+
+原标题：Practice：实现批量任务失败断点续跑实践
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/62574848.html
+
+原标题：golang aes 对称加密解密示例
+简介：golang json number 数字不转 float64，使用 json.Number 保留原始数字字符串，防止大数字精度丢失。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/31506996.html
+
+原标题：golang 系统设计 lru 缓存算法实现思路
+简介：golang gin 参数绑定 query form json，掌握 Gin 多种参数绑定方式，适配不同请求格式参数读取。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/51503929.html
+
+原标题：golang 系统设计 protobuf 可选字段使用技巧
+简介：内存广播本地进程消息通知，实现进程内内存消息广播，进程内部模块之间事件通知解耦。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/84936258.html
+
+原标题：零基础理解模块化与组件化基础思想
+简介：golang url 参数编码处理方案，Go URL 参数编码解码，处理特殊字符，避免 URL 参数错乱。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/62612893.html
+
+原标题：Debug：时间回拨，定时任务调度逻辑错乱
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/29246259.html
+
+原标题：安全实践：SQL注入产生场景与完整防御手段
+简介：正则表达式文本处理实战案例，结合业务场景演示正则匹配、提取、替换，处理手机号、邮箱等各类文本校验需求。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/74838360.html
+
+原标题：golang 系统设计密钥轮换安全实践思路
+简介：JSON XML 数据解析处理示例，演示两种格式数据解析与序列化，增加异常捕获，处理格式错乱导致解析失败。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/71494626.html
+
+原标题：golang gin 静态资源访问配置
+简介：golang 滑动窗口限流算法 go 实现，滑动窗口限流，解决固定窗口临界流量突增漏洞，限流更精准。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/17162515.html
+
+原标题：Practice：实现文件监控自动重启开发服务工具
+简介：golang go 终端 pty 伪终端操作，pty 启动子进程，模拟终端交互，实现交互式命令调用。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/39674625.html
+
+原标题：golang dockerfile 多阶段构建详解
+简介：golang go 线上故障排查完整流程，CPU 高、内存上涨、接口超时、goroutine 泄露一套排查处理流程。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/40512682.html
+
+原标题：优化实践：异步改造同步接口提升吞吐能力
+简介：数据库事务 ACID 原理讲解，拆解事务四大特性，理解事务隔离、原子性，明白事务如何保障数据安全。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/28270381.html
+
+原标题：排错：静态资源CDN缓存未刷新旧资源持续返回
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/17169571.html
+
+原标题：性能复盘：内存泄漏定位，内存持续上涨优化
+简介：gitignore 文件编写过滤规则，讲解 gitignore 语法，编写过滤配置，忽略缓存、编译产物、密钥文件，保持仓库整洁。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/18268471.html
+
+原标题：golang 系统设计分布式锁选型对比
+简介：golang http 服务性能优化调参，调优 Go HTTP 服务参数，调整连接池，提升服务并发吞吐能力。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/15803693.html
+
+原标题：HelloWorld：快速上手新项目最小可运行示例
+简介：golang smtp 邮件发送完整示例，调用 smtp 服务发送文本与 html 格式邮件，实现邮件通知能力。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/93681415.html
+
+原标题：golang docker 多阶段构建 go 镜像
+简介：golang 项目目录分层规范设计，Go 后端项目目录分层规范，按领域分层，提高项目可读性可维护性。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/36024796.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：配置与镜像分离防止信息泄露
+简介：golang 单例模式实现几种方式，Go 单例模式多种实现对比，sync.Once 等方式，实现全局唯一实例。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/07028382.html
+
+原标题：实践：API接口文档自动导出离线文档实践
+简介：golang 换行符统一处理，文本文件读写统一换行符，规避不同系统换行符带来解析异常。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/52663474.html
+
+原标题：golang 系统设计业务指标系统指标定义思路
+简介：WebSocket 断线重连稳定优化，增加 WebSocket 断线自动重连逻辑，处理网络抖动，维持长连接稳定。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/05451482.html
+
+原标题：多操作系统开发兼容处理
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/06158682.html
+
+原标题：性能笔记：HTTP连接复用性能优化实践
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/06048589.html
+
+原标题：DevOps：Docker镜像优化，减小镜像体积实践
+简介：Git 代码冲突正确处理方式，讲解冲突产生场景，演示冲突文件修改，正确合并代码，防止代码丢失。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/62591392.html
+
+原标题：设计思考：业务系统中什么时候不要用微服务
+简介：golang 分布式锁防死锁实现要点，锁超时、续期、锁持有者校验，避免锁死锁，保障分布式锁可靠性。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/18936811.html
+
+原标题：golang 系统设计缓存预热缓存降级实现
+简介：线程池拒绝策略任务丢失防护，合理设置线程池拒绝策略，处理任务队列满场景，避免业务任务直接丢失。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/10289670.html
+
+原标题：nodejs 内存溢出问题排查修复
+简介：golang go 爬虫异步并发抓取，协程池控制并发抓取网页，多协程采集，提升爬虫采集速度。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/83188786.html
+
+原标题：golang 系统设计告警渠道钉钉邮件企业微信集成
+简介：css 变量主题切换方案实现，使用 CSS 变量实现网页主题切换，多套主题样式快速切换无需大量 CSS。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/30495759.html
+
+原标题：golang 优雅处理 http 超时设置
+简介：前后端会话登录状态持久化，实现登录状态持久存储，重启服务登录状态不丢失，保障会话稳定性。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/17058476.html
+
+原标题：项目脚手架模板生成工具
+简介：golang 数据库连接池泄露检测逻辑，监控连接池状态，检测连接长时间未归还，告警连接泄漏问题。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/40481682.html
+
+原标题：Security：限流防爬虫防恶意攻击防护体系
+简介：Shell 脚本自动化命令编写，讲解 Shell 基础语法，编写自动化脚本，完成批量执行、文件处理，解放重复手工操作。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/73018060.html
+
+原标题：golang 系统设计故障演练简单思路
+简介：golang snowflake 时钟回拨解决方案，雪花算法处理时钟回拨，防止生成重复 ID，保证 ID 全局唯一。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/42615037.html
+
+原标题：Practice：模拟数据库故障验证降级逻辑实践
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/59687059.html
+
+原标题：架构复盘：容器资源隔离架构CPU内存限制设计
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/30473616.html
+
+原标题：实战项目：实现简单缓存服务缓存穿透击穿防护
+简介：golang go‑zero 框架项目快速搭建，go‑zero 脚手架生成微服务项目，api rpc 服务快速开发。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/40503829.html
+
+原标题：golang k8s 节点污点容忍度配置
+简介：golang channel 缓冲无缓冲区别，缓冲 channel 与无缓冲 channel，底层行为差异业务选型参考。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/84836241.html
+
+原标题：AI实践：大模型生成代码后审查与重构实践
+简介：golang 程序崩溃 core dump 生成调试，开启 core dump，程序崩溃生成转储文件，事后分析崩溃原因。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/30481283.html
+
+原标题：golang k8s 网络策略网络隔离设置
+简介：golang go 项目依赖冲突解决完整思路，定位冲突包，replace、exclude、升级降级解决版本冲突。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/96937585.html
+
+原标题：MySQL 慢查询索引优化实战
+简介：线程池拒绝策略任务丢失防护，合理设置线程池拒绝策略，处理任务队列满场景，避免业务任务直接丢失。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/95919171.html
+
+原标题：golang 系统设计字符串拼接性能优化技巧
+简介：golang go 程序权限最小化运行，容器内使用普通用户运行程序，拒绝 root 运行提升安全等级。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/89684695.html
+
+原标题：golang 系统设计 pr 评审合并完整流程
+简介：golang defer 执行顺序与坑点，defer 后进先出，循环内部 defer 陷阱，资源释放正确写法。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/07151696.html
+
+原标题：从零学习简单分页逻辑实现思路
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/06069082.html
+
+原标题：golang 系统设计集成测试数据库回滚重置方案
+简介：RPC 接口字段增减兼容处理，RPC 接口新增删除字段做好向前兼容，老版本服务不会解析报错崩溃。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/73028173.html
+
+原标题：无用对象回收抑制内存上涨
+简介：golang go http 文件服务器自定义，http.FileServer 自定义 FileSystem，拦截访问，增加鉴权逻辑。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/30502813.html
+
+原标题：GitHub Markdown 文档语法汇总
+简介：golang redis 过期时间处理技巧，设置 key 过期，监控过期事件，基于过期特性实现业务缓存逻辑。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/59670583.html
+
+原标题：golang 系统设计技术方案评审关注点清单参考
+简介：golang proto 可选字段处理方案，protobuf 可选字段正确判断，区分未赋值与零值，业务逻辑不出现偏差。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/52624237.html
+
+原标题：Git 仓库瘦身加快克隆下载速度
+简介：内存泄漏定位分析完整流程，分享内存泄漏排查步骤，定位没有释放的对象，解决内存持续上涨问题。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/30503938.html
+
+原标题：优化实践：业务定时任务错开高峰避免资源争抢
+简介：golang kafka 批量消费性能优化，开启批量拉取消息，调整批量大小，提升 kafka 消息消费吞吐量。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/51458453.html
+
+原标题：Debug：多线程共享可变变量产生脏数据
+简介：golang go panic 合理使用边界，panic 只用于不可恢复程序错误，业务逻辑禁止直接 panic。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/51462583.html
+
+原标题：Hands‑on：手写简易ORM框架理解底层原理
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/40451363.html
+
+原标题：golang 系统设计接口幂等架构设计
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/14129171.html
+
+原标题：开发记录：批量接口请求并发控制实践
+简介：MySQL 慢查询索引优化实战，抓取慢查询 SQL，分析执行计划，新增或者调整索引，提升 SQL 执行速度。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/29673626.html
+
+原标题：调优方案：Web服务内核socket参数调优
+简介：Nginx 请求头大小上限调整，修改 Nginx 配置，调大请求头允许最大大小，避免大 Header 请求被拒绝。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/84128171.html
+
+原标题：golang 系统设计定时任务调度时间校准要点
+简介：golang kitex 超时重试熔断配置，kitex 配置调用超时、重试、熔断策略，保障微服务调用稳定性。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/84139270.html
+
+原标题：OpenAPI 自动接口文档生成
+简介：端口占用释放资源重启服务，查找占用端口进程，结束占用进程，释放端口，让服务能够正常启动监听。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/28879213.html
+
+原标题：golang 系统设计采样策略降低链路存储开销
+简介：Nginx 缓冲区调优大文件上传，调大 Nginx 请求缓冲区，支持客户端上传大体积文件，避免上传被截断。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/92603581.html
+
+原标题：golang docker 基础命令实操汇总
+简介：任务执行锁防止并发重复调度，增加任务执行锁，多实例环境，防止同一个定时任务并发多次运行。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/73670692.html
+
+原标题：DevOps：Docker镜像优化，减小镜像体积实践
+简介：golang go time 时区数据库内置，go 内置时区数据库，不用系统时区文件，容器时区不依赖系统。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/18171791.html
+
+三、实战开发｜Practice
+原标题：日志输出规范防止磁盘爆满
+简介：golang http 文件下载断点续传服务，服务端实现断点续传，支持大文件分段下载，提升大文件下载稳定性。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/29380684.html
+
+原标题：架构笔记：分布式事务方案对比与业务取舍
+简介：golang gorm 软删除实现逻辑，Gorm 开启软删除，删除数据仅标记，数据保留可恢复，满足业务数据留存。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/06351474.html
+
+原标题：零基础理解幂等性基础概念与场景
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/28830381.html
+
+原标题：新手教程：配置SSH‑Key免密访问GitHub
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/30493703.html
+
+原标题：DevOps：日志标准输出容器日志收集方案
+简介：Git 子模块更新代码不全修复，正确更新 Git 子模块，拉取子模块完整代码，解决子模块目录为空问题。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/52614696.html
+
+原标题：golang 系统设计代码评审 checklist 清单
+简介：golang os 打开文件 O_APPEND O_CREATE 标志，OpenFile 标志位，控制文件创建追加截断行为。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/21408858.html
+
+原标题：golang 系统设计大表加索引线上执行方案
+简介：API 接口调试与异常处理实战，覆盖接口请求、参数组装、错误捕获，提供调试思路，高效定位接口返回异常问题。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/76064423.html
+
+原标题：golang k8s 节点污点容忍度配置
+简介：golang mysql 慢查询日志程序采集解析，程序读取解析 mysql 慢查询日志，统计慢 SQL 做监控告警。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/06028971.html
+
+原标题：入门实战：搭建简易静态网页项目
+简介：golang fasthttp 服务开发完整示例，fasthttp 搭建 http 服务，路由、参数读取、响应返回完整业务。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/06946252.html
+
+原标题：CORS 跨域问题多种解决方案
+简介：分布式任务调度集群原型开发，开发简易分布式调度原型，集群多节点运行，保证任务只执行一次。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/40502793.html
+
+原标题：golang rate‑limiter 限流组件
+简介：css 动画性能优化 GPU 加速，优化 CSS 动画，使用 GPU 加速属性，避免动画过程页面卡顿掉帧。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/28491804.html
+
+原标题：nestjs 框架模块化项目搭建
+简介：操作系统内核版本适配服务，针对服务运行要求，适配操作系统内核版本，规避内核兼容 bug。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/18279582.html
+
+原标题：golang 系统设计最小权限原则落地实践
+简介：Redis 热点 key 拆分降低集群压力，拆分访问量极高的热点 Key，分散请求压力，避免 Redis 节点压力过高。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/73614036.html
+
+原标题：Architecture：服务注册发现架构原理与选型
+简介：golang os 环境变量读取设置，os.Getenv os.Setenv os.Unsetenv 读写环境变量，环境变量多值处理。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/52614032.html
+
+原标题：部署复盘：容器资源限制CPU内存配置实践
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/96057070.html
+
+原标题：全局本地依赖隔离冲突规避
+简介：golang redis 过期时间处理技巧，设置 key 过期，监控过期事件，基于过期特性实现业务缓存逻辑。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/29139403.html
+
+原标题：Git 分支管理多人协作实战教程
+简介：golang docker 多阶段构建 go 镜像，Go 项目 Docker 多阶段构建，编译与运行阶段分离，大幅度缩减最终镜像体积，提升镜像分发效率。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/49784626.html
+
+原标题：Nginx 丢失请求头配置修正
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/28573463.html
+
+原标题：nodejs 事件循环机制完整讲解
+简介：golang go 服务日志输出 journald，systemd journald 接收程序 stdout 日志，统一管理服务日志。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/40615030.html
+
+原标题：golang 系统设计消息体序列化选型对比
+简介：跨库查询性能优化处理，减少跨库关联查询，做数据冗余或者中间表，规避跨库查询性能低下。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/70795726.html
+
+原标题：入门实践：使用Git完成第一次代码提交与推送
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/62573698.html
+
+原标题：Practice：模拟主从延迟业务兼容方案实践
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/74139171.html
+
+原标题：golang 系统设计定时任务执行超时中断防护
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/40681796.html
+
+原标题：golang 系统设计文件存储选型对比
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/63392619.html
+
+原标题：排错：DockerCompose依赖顺序启动顺序坑
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/86878563.html
+
+原标题：安全笔记：CSP内容安全策略配置实践
+简介：golang 熔断降级简易组件开发，Go 简易熔断组件，下游故障触发熔断，保护上游服务不被拖垮。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/01301846.html
+
+原标题：WSL 内存上限限制防止资源耗尽
+简介：golang time duration 解析时间字符串，time.ParseDuration 解析 1h30m 时间间隔字符串。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/74050391.html
+
+原标题：golang toml 配置文件解析教程
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/73725140.html
+
+原标题：坑点：环境配置被打包进镜像引发安全泄露
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/51581691.html
+
+原标题：时间精度统一业务判断修复
+简介：golang 模糊测试 go fuzz 基础编写，Fuzz 测试函数，自动生成随机输入，发现代码崩溃 panic。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/07462402.html
+
+原标题：golang 优雅处理系统信号 SIGINT
+简介：golang net/http 超时全套配置，完整配置 Go HTTP 服务读写空闲超时，全方位防止请求挂住。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/29251492.html
+
+原标题：golang 系统设计配置中心核心能力梳理讲解
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/40483474.html
+
+原标题：golang kafka 消息顺序性保证方案
+简介：express 请求参数校验处理，接入参数校验库，校验入参，拦截非法参数，提前拦截错误请求。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/51491894.html
+
+原标题：复盘总结：系统压测报告模板与分析思路
+简介：RPC 接口字段增减兼容处理，RPC 接口新增删除字段做好向前兼容，老版本服务不会解析报错崩溃。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/39036024.html
+
+原标题：service‑worker 离线缓存实践
+简介：golang http MaxHeaderBytes 限制请求头，设置 http 最大请求头大小，防止超大 header 攻击。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/39047591.html
+
+原标题：CI/CD 流水线自动构建部署落地
+简介：限流规则误拦截正常请求修复，修正限流规则阈值，避免合法用户被限流拦截，兼顾防护与可用性。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/62603924.html
+
+原标题：业务错误码完整落地实践
+简介：golang go 测试 t.Run 子测试分组，t.Run 实现子测试，分组执行用例，输出分组测试结果。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/18281402.html
+
+原标题：实战项目：搭建本地Mock服务快速开发联调
+简介：任务执行锁防止并发重复调度，增加任务执行锁，多实例环境，防止同一个定时任务并发多次运行。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/52917968.html
+
+原标题：坑点：软链接权限问题容器读取文件失败
+简介：nodejs http 服务性能调优实战，调优 Node HTTP 服务内核参数，连接复用，提升接口并发处理能力。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/95447361.html
+
+原标题：实践：前后端分离项目登录状态保持完整方案
+简介：nodejs 数据库连接池配置调优，调优 Node 数据库连接池参数，平衡性能与资源占用，避免连接耗尽。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/41525139.html
+
+四、架构设计｜Architecture
+原标题：一次数据库死锁现场分析与解决方案记录
+简介：golang 内存 dump 线上堆快照采集，线上生成内存 dump 文件，线下分析，定位内存泄漏问题。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/17180280.html
+
+原标题：内存泄漏定位分析完整流程
+简介：Redis 分布式锁高并发安全实现，基于 Redis 实现分布式锁，处理锁过期、续期，保障集群并发安全。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/06021394.html
+
+原标题：踩坑记录：分页逻辑错误造成数据重复输出
+简介：nestjs 拦截器过滤器管道实战，实操 Nest 拦截器、异常过滤器、管道校验，处理请求与响应统一逻辑。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/95958948.html
+
+原标题：golang mongodb 事务多文档使用
+简介：前端下载导出文件功能实现，前端实现文件流下载导出，处理异常，适配浏览器不同下载行为。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/95946249.html
+
+原标题：从零学习简单分页逻辑实现思路
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/58683615.html
+
+原标题：文件锁正确使用避免死锁
+简介：静态资源 404 路径打包修复，修复打包后静态资源访问 404，调整资源输出路径，保证资源正常加载。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/95806959.html
+
+原标题：Debug：表单自动转义特殊字符业务逻辑出错
+简介：golang 性能压测 wr 工具实操指南，wr 压测工具对 Go 接口压测，观察 QPS 延迟，定位接口性能瓶颈。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/95946916.html
+
+原标题：Git 分支管理多人协作实战教程
+简介：CI/CD 流水线自动构建部署落地，搭建完整 CI/CD 流水线，代码提交自动构建、测试、部署到目标环境。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/40795848.html
+
+原标题：golang 系统设计数据库慢请求排查流程
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/63025137.html
+
+原标题：Issue：开源项目升级大版本后API不兼容踩坑
+简介：文件分片上传断点续传功能，实现文件分片上传，记录上传进度，支持断点续传大文件上传。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/63794048.html
+
+原标题：避坑：ORM框架隐式查询产生大量慢SQL
+简介：golang net/url 路径拼接处理，url.ParseRequestURI 处理请求 url，正确拼接 url 路径避免拼接错误。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/60380697.html
+
+原标题：上传接口跨域配置特殊适配
+简介：golang context.WithCancel 手动取消上下文，WithCancel 生成可取消 ctx，手动调用 cancel 触发取消。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/08278404.html
+
+原标题：文件监控服务自动重启开发
+简介：golang 优雅停机服务关闭实现，监听系统信号，关闭服务等待请求处理完毕，实现 Go 服务优雅停机。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/62614838.html
+
+原标题：多线程线程安全脏数据规避
+简介：后端大文件分片上传接口开发，开发后端分片上传接口，接收分片，合并分片完成大文件存储。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/03139352.html
+
+原标题：nodejs 进程间通信 IPC 实操
+简介：golang pdf 生成 go 服务端生成 pdf，服务端动态生成 pdf 报表文件，直接输出下载给到前端。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/17169492.html
+
+原标题：性能笔记：HTTP连接复用性能优化实践
+简介：golang testify mock 模拟接口，mock 接口生成 mock 对象，单元测试模拟外部依赖行为。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/28270696.html
+
+原标题：golang 系统设计 rest http 方法使用原则
+简介：golang 优雅处理 http 重定向逻辑，自定义控制 http 重定向跳转次数，防止无限重定向死循环。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/95126738.html
+
+原标题：golang k8s 滚动更新回滚策略
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：http://www.blog.ngevx.cn/wppoy/94797028.html
+
+?
