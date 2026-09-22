@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang mysql 慢查询日志开启分析
+简介：静态资源 404 路径打包修复，修复打包后静态资源访问 404，调整资源输出路径，保证资源正常加载。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/41501473.sHtML
+
+原标题：实践：分布式事务本地模拟验证实践
+简介：golang yaml 解析配置加载实操，Go 解析 YAML 配置文件，读取配置参数，驱动业务运行。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/98179281.sHtML
+
+原标题：nestjs 全局返回格式统一处理
+简介：golang panic 崩溃日志完整收集，捕获所有 panic，打印堆栈，记录日志，方便定位崩溃根源。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/75917037.sHtML
+
+原标题：DNS TTL 配置域名切换生效
+简介：Redis 分布式锁高并发安全实现，基于 Redis 实现分布式锁，处理锁过期、续期，保障集群并发安全。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/81673502.sHtML
+
+原标题：操作系统内核版本适配服务
+简介：golang go http 文件服务器自定义，http.FileServer 自定义 FileSystem，拦截访问，增加鉴权逻辑。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/70802892.sHtML
+
+原标题：安全实践：备份文件访问权限安全管控
+简介：新手快速上手 Git 版本控制实操指南，讲解 Git 基础概念与常用命令，结合实操案例，帮助零基础用户掌握版本控制核心能力。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/84938070.sHtML
+
+原标题：图片上传预览格式大小处理
+简介：GET POST 接口请求参数处理，讲解两种请求方式参数传递区别，演示参数接收、解析、校验，适配不同接口调用场景。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/96021470.sHtML
+
+原标题：golang mongodb 索引优化查询速度
+简介：nodejs 读取大文件 csv 处理方案，Node 流式读取超大 CSV 文件，逐行解析，避免一次性加载全部文件。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/74947994.sHtML
+
+原标题：轻量 API 后端接口服务快速开发
+简介：golang prometheus 指标埋点开发，业务埋点计数器、仪表盘、直方图，对接 prometheus 采集监控指标。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/36069180.sHtML
+
+原标题：golang 系统设计分库分表扩容平滑迁移
+简介：golang go‑zero 配置中心热更新，go‑zero 对接 etcd 配置中心，配置热更新无需重启服务。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/70795807.sHtML
+
+原标题：Hands‑on：编写shell健康检查自动重启脚本
+简介：golang k8s secret 敏感配置加载，加载 k8s secret 存储密钥密码，敏感信息不存放配置文件。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/18847027.sHtML
+
+原标题：golang 系统设计容器镜像安全加固要点
+简介：YAML 配置文件语法快速上手，讲解 YAML 基础语法、缩进规则，编写项目配置文件，规避语法错误引发程序异常。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/26790889.sHtML
+
+原标题：安全复盘：消息队列未授权访问安全加固
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/40139191.sHtML
+
+原标题：项目实践：定时任务防重复执行落地实践
+简介：golang 参数校验业务接口处理，Go 接口入参参数校验，拦截非法入参，减少业务层参数判断代码。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/37676553.sHtML
+
+原标题：实战：对象存储断点续传下载实践
+简介：golang gzip 压缩 http 响应，服务端开启 gzip 压缩，减小接口响应体积，降低网络传输耗时。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/69360291.sHtML
+
+原标题：golang gorm 批量插入性能调优
+简介：分布式锁失效问题排查修复，分析分布式锁失效场景，修复锁超时、续期问题，保证锁逻辑可靠。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/84805795.sHtML
+
+原标题：零基础理解数据库事务基础ACID概念
+简介：golang go 调用动态链接库 so 文件，go 加载 so 动态库调用函数，复用编译好的 C 动态库。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/20461791.sHtML
+
+原标题：Practice：实现请求body重复读取中间件实践
+简介：golang go 整洁架构代码组织实践，整洁架构依赖向内，解耦业务逻辑与外部基础设施。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/04744806.sHtML
+
+原标题：DevOps：日志标准输出容器日志收集方案
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/52512625.sHtML
+
+原标题：项目目录结构规范化最佳实践
+简介：golang 接口限流中间件开发，Gin 开发限流中间件，接口层实现访问频率限制，防护接口流量。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/87028136.sHtML
+
+原标题：golang 系统设计配置本地缓存降级策略方案
+简介：前端骨架屏提升页面体验，实现页面骨架屏，数据未加载完成展示占位，优化页面白屏感知体验。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/17189189.sHtML
+
+原标题：Architecture：API网关核心能力与组件拆分
+简介：golang uuid 生成多种版本实现，生成 uuid v1 v4，生成唯一标识，业务用于单据编号场景。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/85927916.sHtML
+
+原标题：golang 系统设计第三方接口调用封装思路
+简介：golang CPU 绑定亲和性设置 go 程序，设置进程 CPU 亲和绑定核心，减少 CPU 调度开销，提升计算性能。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/04847029.sHtML
+
+原标题：golang 系统设计压测指标确定与分析
+简介：golang 多协程任务池并发控制，实现协程任务池，控制并发协程数量，防止无限制创建 goroutine。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/70705848.sHtML
+
+原标题：线上故障：慢查询拖垮整个数据库服务
+简介：nodejs redis 缓存业务实战，Node 对接 Redis 实现业务缓存，缓存热点查询结果，减轻数据库压力。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/31794137.sHtML
+
+原标题：golang 系统设计依赖版本升级风险评估
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/14260369.sHtML
+
+原标题：nodejs 日志轮转生产环境配置
+简介：golang 任务失败重试与死信队列，异步任务失败自动重试，超过重试次数进入死信队列人工处理。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/74812575.sHtML
+
+原标题：开发记录：实现完整用户登录鉴权业务模块
+简介：大事务拆分回滚日志暴涨解决，拆分大型数据库事务，减少回滚日志生成量，避免磁盘被回滚日志占满。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/96912815.sHtML
+
+原标题：项目目录结构规范化最佳实践
+简介：golang 工具函数库封装思路，Go 通用工具库封装思路，错误处理、类型转换，业务项目复用工具代码。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/36068060.sHtML
+
+原标题：golang mysql innodb 事务隔离级别
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/39391804.sHtML
+
+原标题：开发记录：表单参数校验统一中间件实现
+简介：浏览器内存泄漏排查前端页面，梳理前端页面内存泄漏场景，讲解排查手段，修复页面内存持续上涨。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/53704836.sHtML
+
+原标题：golang k8s liveness readiness 探针
+简介：主干开发团队代码合并策略，讲解主干开发模式，团队代码合并流程，适合高频迭代的团队协作模式。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/54805805.sHtML
+
+原标题：Issue：CI脚本超时，构建任务无故终止
+简介：golang 模糊测试 go fuzz 基础编写，Fuzz 测试函数，自动生成随机输入，发现代码崩溃 panic。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/29259248.sHtML
+
+原标题：golang 项目 go mod 依赖管理
+简介：golang 定时任务任务持久化存储，定时任务持久化到数据库，服务重启任务不丢失，动态管理任务。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/63783580.sHtML
+
+原标题：golang aes 对称加密解密示例
+简介：vite 插件开发自定义构建逻辑，开发自定义 vite 插件，介入构建生命周期，实现项目个性化构建逻辑。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/36056079.sHtML
+
+原标题：golang redis lua 脚本开发调试
+简介：跨平台 uniapp 多端开发实操，uniapp 开发一套代码，编译多端，梳理多端差异处理与适配技巧。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/51805920.sHtML
+
+原标题：任务执行锁防止并发重复调度
+简介：程序日志分级输出规范实践，区分日志等级，规范日志打印内容，合理输出日志，方便线上问题排查定位。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/91501894.sHtML
+
+原标题：异步异常捕获避免进程崩溃
+简介：golang http 代理客户端配置，Go HTTP Client 配置代理，通过代理服务器发起网络请求。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/85915736.sHtML
+
+原标题：数值 key 浮点匹配异常规避
+简介：系统时间同步定时任务偏移，同步服务器系统时间，防止时间偏移，避免定时任务执行时间错乱。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/47589594.sHtML
+
+原标题：WebSocket 断线重连稳定优化
+简介：Redis 大 key 拆分集群卡顿解决，拆分 Redis 超大 Key，避免大 key 操作造成 Redis 集群卡顿阻塞。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/07138288.sHtML
+
+
+二、踩坑排错｜Troubleshooting
+原标题：Architecture：API网关核心能力与组件拆分
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/15967070.sHtML
+
+原标题：golang 系统设计熔断降级架构讲解
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/07735137.sHtML
+
+原标题：Security：文件路径穿越漏洞完整防护
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/96149133.sHtML
+
+原标题：Cookie Session 会话状态管理
+简介：日志输出规范防止磁盘爆满，控制日志输出量，配置日志切割轮转，避免日志文件无限增长占满磁盘。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/06030359.sHtML
+
+原标题：开发记录：网关实现接口鉴权、限流、日志打印
+简介：golang udp 服务端客户端开发示例，golang 实现 UDP 服务收发数据包，实现 udp 协议通信程序。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/14905837.sHtML
+
+原标题：Troubleshooting：Redis大key引发集群卡顿
+简介：golang 工具函数库封装思路，Go 通用工具库封装思路，错误处理、类型转换，业务项目复用工具代码。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/52713905.sHtML
+
+原标题：项目脚手架模板生成工具
+简介：golang 命令行参数解析开发，解析命令行入参，开发自定义 CLI 程序，读取启动参数配置服务。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/84957060.sHtML
+
+原标题：golang mysql 索引失效常见场景
+简介：YAML 配置文件语法快速上手，讲解 YAML 基础语法、缩进规则，编写项目配置文件，规避语法错误引发程序异常。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/43794748.sHtML
+
+原标题：golang 系统设计本地消息表可靠消息最终一致性
+简介：Git 标签版本标记发布管理，使用 Git 标签标记项目版本，打标签推送远程，用于版本发布、版本回溯。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/93145137.sHtML
+
+原标题：实践：接口参数自动校验业务落地实践
+简介：axios 二次封装请求拦截处理，对 axios 做二次封装，统一请求拦截响应拦截，处理错误、token 自动刷新。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/03035160.sHtML
+
+原标题：golang 系统设计定时任务动态启停配置方案
+简介：golang 项目 go mod 依赖管理，Go Mod 管理项目依赖，下载、升级、清理依赖，解决依赖版本管理。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/39584738.sHtML
+
+原标题：实战：Nginx配置静态站点、反向代理、负载均衡
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/31179170.sHtML
+
+原标题：golang 系统设计技术方案文档模板参考
+简介：golang 时间时区处理避坑指南，Go 时间时区常见坑，时区转换，时间比较，规避时间逻辑错误。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/57289283.sHtML
+
+原标题：css 动画性能优化 GPU 加速
+简介：代码模块化组件化拆分思路，讲解代码拆分原则，将大业务拆分为独立模块组件，提升代码复用与维护能力。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/85816820.sHtML
+
+原标题：安全笔记：JWT安全风险，签名泄露过期控制
+简介：golang 环境变量读取与类型转换，读取系统环境变量，做类型转换默认值处理，适配多环境部署。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/74413704.sHtML
+
+原标题：golang 系统设计 graphql 接口优缺点梳理
+简介：golang net/url 路径拼接处理，url.ParseRequestURI 处理请求 url，正确拼接 url 路径避免拼接错误。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/58694926.sHtML
+
+原标题：程序预加载加快服务启动速度
+简介：YAML 配置文件语法快速上手，讲解 YAML 基础语法、缩进规则，编写项目配置文件，规避语法错误引发程序异常。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/75823915.sHtML
+
+原标题：golang 日志与链路 ID 关联打印
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/30594728.sHtML
+
+原标题：Architecture：安全防护架构XSSCSRFSQL注入防御
+简介：CLI 工具进度条交互效果开发，在命令行工具增加进度条展示，直观反馈任务执行进度，优化命令行体验。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/80800315.sHtML
+
+原标题：文件监控服务自动重启开发
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/36139281.sHtML
+
+原标题：主干开发团队代码合并策略
+简介：多操作系统开发兼容处理，解决不同系统路径、换行符、权限差异，保证项目跨平台正常运行。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/14845959.sHtML
+
+原标题：Architecture：CI/CD流水线架构完整设计思考
+简介：golang go http 服务器优雅关闭完整代码，http.Server Shutdown，等待现有请求处理完成关闭服务。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/47140364.sHtML
+
+原标题：golang 优雅停机服务关闭实现
+简介：用户敏感数据脱敏代码实现，编写数据脱敏工具，对手机号、身份证做脱敏处理，防止敏感信息直接泄露。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/30371627.sHtML
+
+原标题：Issue：Nginxkeepalive参数不合理大量TIME_WAIT
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/07247960.sHtML
+
+原标题：调优方案：Docker容器内核参数性能调优
+简介：golang sqlx 原生 SQL 代码简化，sqlx 简化原生 SQL 结果映射结构体，兼顾性能与开发效率。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/70433514.sHtML
+
+原标题：前端静态缓存更新生效处理
+简介：golang redis 过期键监听回调，监听 key 过期事件，过期触发业务逻辑，实现过期自动处理业务场景。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/03135149.sHtML
+
+原标题：方案设计：统一ID生成服务架构对比雪花算法
+简介：golang 配置文件多环境加载，Go 多环境配置加载实现，读取配置文件环境变量，适配多套运行环境。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/58589595.sHtML
+
+原标题：golang 系统设计一致性哈希原理讲解
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/03783463.sHtML
+
+原标题：golang 系统设计排行榜几种实现
+简介：golang 容器内读取 k8s 配置 configmap，程序读取 k8s configmap 配置，配置与镜像分离便于运维。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/92793691.sHtML
+
+原标题：golang 系统设计日志采样降低存储开销方案
+简介：golang time duration 解析时间字符串，time.ParseDuration 解析 1h30m 时间间隔字符串。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/61572403.sHtML
+
+原标题：设计思考：缓存分层架构设计与失效处理策略
+简介：手写简易 RPC 服务通信原型，手写极简 RPC 原型，理解服务注册、网络传输、方法调用底层逻辑。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/48589713.sHtML
+
+原标题：golang 系统设计网关 websocket 转发配置要点
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/29256262.sHtML
+
+原标题：极简 API 网关路由转发实现
+简介：消息消费重试次数限制防爆炸，限制消息最大重试次数，防止失败消息无限重试造成消息爆炸堆积。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/02738928.sHtML
+
+原标题：OpenAPI 自动接口文档生成
+简介：重复提交幂等防护再次讲解，梳理前端重复点击、网络重试场景，落地接口幂等，杜绝重复业务。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/07138240.sHtML
+
+原标题：Practice：手写简易限流组件，计数器、令牌桶实现
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/69690696.sHtML
+
+原标题：方案设计：统一ID生成服务架构对比雪花算法
+简介：golang mongodb go 驱动实操教程，mongo‑go‑driver 操作 mongodb，文档增删改查聚合查询。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/30783584.sHtML
+
+原标题：部署实践：多实例服务部署无状态改造
+简介：golang grpc 客户端流上传数据，客户端流式请求，客户端分批上传数据到服务端，适合大文件传输。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/73938926.sHtML
+
+原标题：Hands‑on：简易速率限制中间件完整实现
+简介：golang go 锁竞争导致 CPU 飙升，识别锁竞争场景，减少锁粒度，优化并发逻辑降低 CPU 开销。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/28471570.sHtML
+
+原标题：安全实践：防止JSON解析漏洞恶意payload
+简介：golang 内存 pprof 定位内存泄漏，pprof 分析内存快照，定位内存泄露对象，解决 Go 程序内存持续上涨。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/25250381.sHtML
+
+原标题：部署实践：容器时区统一配置解决方案
+简介：golang 命令行彩色输出终端，终端彩色文字输出，进度条交互，优化命令行工具用户体验。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/20589570.sHtML
+
+三、实战开发｜Practice
+原标题：坑点：npm/pip全局版本与项目本地版本冲突
+简介：golang 内存 pprof 定位内存泄漏，pprof 分析内存快照，定位内存泄露对象，解决 Go 程序内存持续上涨。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/27189240.sHtML
+
+原标题：golang 系统设计分表字段选择路由规则设计
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/52794794.sHtML
+
+原标题：golang gitlab runner 部署与注册实操
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/74816857.sHtML
+
+原标题：golang kafka 监控指标简单梳理
+简介：SDK 版本兼容线上崩溃修复，处理 SDK 版本升级之后线上崩溃，定位 API 变更，做版本兼容适配改造。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/52783681.sHtML
+
+原标题：golang 系统设计埋点数据上报方案
+简介：golang bytes.Buffer 字节缓冲区使用，bytes.Buffer 字节内存缓冲区，拼接字节，避免频繁内存分配。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/75516025.sHtML
+
+原标题：Architecture：监控告警架构避免告警风暴设计
+简介：Git 标签版本标记发布管理，使用 Git 标签标记项目版本，打标签推送远程，用于版本发布、版本回溯。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/74895706.sHtML
+
+原标题：文件批量导入导出功能实现
+简介：分布式任务调度集群原型开发，开发简易分布式调度原型，集群多节点运行，保证任务只执行一次。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/52627935.sHtML
+
+原标题：nodejs 单元测试 jest 实操教程
+简介：golang html 模板防 xss 自动转义，理解 go html/template 自动转义，防止 XSS 攻击，处理不需要转义场景。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/52399692.sHtML
+
+原标题：多环境配置中心灵活切换方案
+简介：react 状态管理方案选型对比，对比 Redux、Zustand 等 React 状态管理库，分析适用业务场景辅助选型。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/47584702.sHtML
+
+原标题：排错：CI流水线构建失败，日志无明确报错
+简介：golang 结构体深浅拷贝区别实操，区分结构体浅拷贝深拷贝，规避指针引用带来数据意外篡改问题。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/85916950.sHtML
+
+原标题：实践：灰度流量切分简易实现方案
+简介：golang netlink 系统信息获取，netlink 获取系统网络信息，网卡地址，内核网络状态读取。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/07160213.sHtML
+
+原标题：golang 系统设计缓存 key 命名规范最佳实践
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/29947281.sHtML
+
+原标题：性能笔记：压测如何定位真实系统瓶颈
+简介：golang base64 大文件流式编解码，大文件流式 base64 转换，不用一次性加载全部文件进入内存。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/37060303.sHtML
+
+原标题：golang k8s 命名空间资源隔离方案
+简介：全平台系统环境变量配置，汇总多操作系统环境变量配置方法，统一项目读取逻辑，适配不同运行平台。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/18292473.sHtML
+
+原标题：新手指南：本地防火墙端口访问失败排查
+简介：golang 限流器熔断降级组合使用，限流熔断降级组合架构，流量防护完整方案，保障服务稳定性。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/39781814.sHtML
+
+原标题：golang 系统设计避免索引失效书写 sql 原则
+简介：后端登录鉴权模块完整开发，实现完整登录模块，包含账号校验、令牌发放、接口鉴权整套能力。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/58580692.sHtML
+
+原标题：golang 系统设计滑动窗口限流代码示例
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/17169672.sHtML
+
+原标题：实战：容器内执行调试排错完整实操流程
+简介：Git 混乱提交历史清理方法，针对杂乱的提交记录，使用 Git 工具整理，清理无效提交，还原整洁版本历史。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/58352573.sHtML
+
+原标题：golang 系统设计链路查询定位慢请求实操技巧
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/04246257.sHtML
+
+原标题：部署实践：数据库迁移脚本版本管理实践
+简介：大事务拆分回滚日志暴涨解决，拆分大型数据库事务，减少回滚日志生成量，避免磁盘被回滚日志占满。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/52684729.sHtML
+
+原标题：golang redis pipeline 批量操作
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/65017917.sHtML
+
+原标题：优化实践：内存池思想减少频繁分配释放
+简介：golang makefile 多平台编译脚本，makefile 一键交叉编译多平台二进制，打包镜像，执行测试。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/30491802.sHtML
+
+原标题：架构复盘：多级缓存架构，本地缓存+分布式缓存
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/06368489.sHtML
+
+原标题：golang 系统设计本地缓存 redis 缓存多级组合
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/30169281.sHtML
+
+原标题：本地简易配置中心动态管理
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/85079170.sHtML
+
+原标题：golang lru 缓存淘汰算法编写
+简介：golang CPU 绑定亲和性设置 go 程序，设置进程 CPU 亲和绑定核心，减少 CPU 调度开销，提升计算性能。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/96024136.sHtML
+
+原标题：复盘总结：缓存改造业务落地踩坑复盘
+简介：数据库分表路由写入分片修正，修复分表路由逻辑，保证数据写入正确分片，不会出现数据丢失错乱。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/04737390.sHtML
+
+原标题：DevOps：日志标准输出容器日志收集方案
+简介：golang jaeger 链路追踪部署对接，jaeger 接收 opentelemetry 链路数据，可视化完整调用链路。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/52380462.sHtML
+
+原标题：golang cron 定时任务防并发执行
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/16615468.sHtML
+
+原标题：golang 系统设计依赖漏洞扫描修复流程
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/30032570.sHtML
+
+原标题：Hands‑on：本地模拟消息重复消费处理实践
+简介：golang 字符编码转换 go 处理，iconv‑go 做编码转换 gbk utf8 互转，处理老旧系统 gbk 编码数据。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/59125946.sHtML
+
+原标题：性能复盘：消息队列大量小消息性能问题优化
+简介：JWT 工具封装令牌刷新过期，封装 JWT 工具类，实现令牌生成、校验、过期刷新整套令牌管理逻辑。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/96069372.sHtML
+
+原标题：golang docker 镜像体积优化技巧
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/96028039.sHtML
+
+原标题：零基础理解读写分离基础思想
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/50502514.sHtML
+
+原标题：rebase 操作防止代码丢失
+简介：nestjs 全局返回格式统一处理，Nest 全局拦截器统一包装接口返回数据，对外输出标准化响应格式。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/24238069.sHtML
+
+原标题：golang 系统设计技术文档编写最佳实践
+简介：golang ssh 客户端远程命令执行，golang ssh 连接远程服务器，执行 shell 命令，获取命令输出结果。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/73892513.sHtML
+
+原标题：golang redis 分布式计数器开发
+简介：git cherry‑pick 规范操作防 bug，规范 cherry‑pick 使用流程，处理冲突，避免错误引入不兼容代码。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/05244046.sHtML
+
+原标题：安全复盘：CSRF跨站请求伪造防护配置
+简介：nodejs 脚手架工具开发完整教程，从零开发 Node 命令行脚手架，实现项目模板生成，理解 CLI 开发。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/62773792.sHtML
+
+原标题：golang 接口限流中间件开发
+简介：golang 程序崩溃 core dump 生成调试，开启 core dump，程序崩溃生成转储文件，事后分析崩溃原因。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/74835747.sHtML
+
+原标题：重复提交幂等防护再次讲解
+简介：golang sync.Map 适用场景与性能对比，读多写少，离散 key，对比普通 map 加锁性能差异。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/77249391.sHtML
+
+四、架构设计｜Architecture
+原标题：性能调优：MySQL查询性能优化实战清单
+简介：golang GC 调优 GOGC 参数调整，调整 GOGC 阈值，控制 GC 触发时机，权衡内存占用与 CPU 开销。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/41484795.sHtML
+
+原标题：部署实践：服务器SSH安全加固配置实践
+简介：缓存穿透击穿雪崩全套防护，完整梳理缓存三大问题，落地全套防护策略，保障缓存层稳定运行。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/95924160.sHtML
+
+原标题：Hands‑on：简易连接池原型实现理解原理
+简介：golang 反向代理 http 服务开发，手写简易 http 反向代理，转发请求，修改请求头响应头。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/40473684.sHtML
+
+原标题：性能复盘：网络IO优化减少接口等待时间
+简介：golang go proxy 私有代理配置，配置 go proxy 私有代理，加速依赖下载，内网环境构建项目。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/46299240.sHtML
+
+原标题：安全笔记：JWT安全风险，签名泄露过期控制
+简介：Git 标签版本标记发布管理，使用 Git 标签标记项目版本，打标签推送远程，用于版本发布、版本回溯。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/74149280.sHtML
+
+原标题：golang 大文件读取内存优化
+简介：golang 消息队列实现事务消息方案，基于 kafka 实现事务消息，业务执行成功才对外投递消息。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/53694692.sHtML
+
+原标题：golang redis zset 延时队列实现
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/21512280.sHtML
+
+原标题：golang 项目 go mod 依赖管理
+简介：不必要字符转义关闭业务异常，关闭多余自动转义逻辑，防止业务数据被错误转义，破坏原始数据。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/62846250.sHtML
+
+原标题：golang kafka offset 提交策略
+简介：golang go 接口定义原则小接口，go 小接口设计原则，接口尽量小，只定义必要方法，提升代码灵活性。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/63034036.sHtML
+
+原标题：golang 系统设计缓存过期时间设置原则梳理
+简介：golang base64 大文件流式编解码，大文件流式 base64 转换，不用一次性加载全部文件进入内存。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/58680390.sHtML
+
+原标题：调优方案：gzip压缩开启降低网络传输体积
+简介：golang 日志 zap 结构化日志实践，接入 Zap 结构化日志库，打印结构化日志，方便日志检索解析。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/47690281.sHtML
+
+原标题：踩坑：数据库连接未关闭，连接池泄露
+简介：golang 内存 pprof 定位内存泄漏，pprof 分析内存快照，定位内存泄露对象，解决 Go 程序内存持续上涨。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/49450280.sHtML
+
+原标题：gitignore 文件编写过滤规则
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/96613696.sHtML
+
+原标题：golang k8s 滚动更新回滚策略
+简介：golang go 比较运算符可比较类型，哪些类型可以直接 == 比较，map slice 函数不可直接比较。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/25369591.sHtML
+
+原标题：nodejs http 服务性能调优实战
+简介：依赖安装失败全方位排错，从网络、镜像源、权限、版本多角度，定位依赖安装失败，给出对应修复手段。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/96923928.sHtML
+
+原标题：快速上手简易网关转发逻辑模拟
+简介：特殊输入字符过滤解析防护，过滤用户输入特殊字符，防止解析报错，规避恶意字符带来业务异常。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/41695704.sHtML
+
+原标题：日志驱动异常日志不输出修复
+简介：提交第一个开源 PR 完整流程，Fork 项目、修改代码、提交 Pull Request，讲解 PR 规范，提升合并通过率。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/40579502.sHtML
+
+原标题：调优方案：MySQL缓冲池参数性能调优实践
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：http://www.blog.doboba.cn/Article/details/03944735.sHtML
+
+?
